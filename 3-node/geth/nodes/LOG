@@ -42,3 +42,36 @@
 13:30:18.529013 db@janitor F·5 G·1
 13:30:18.529040 db@janitor removing table-5
 13:30:18.529177 db@open done T·109.732ms
+14:55:56.421406 memdb@flush N·39294 S·3MiB
+14:55:56.468491 memdb@flush created L0@13 N·39294 S·840KiB "loc..seq,v11201":"n:\xff..ail,v10859"
+14:55:56.468574 version@stat F·[2 1] S·922KiB[840KiB 81KiB] Sc·[0.50 0.00]
+14:55:56.509355 memdb@flush committed F·1 T·87.887ms
+14:55:56.515024 journal@remove removed @10
+14:56:13.593196 table@compaction L0·2 -> L1·1 S·922KiB Q·49322
+14:56:13.644308 table@build created L1@14 N·15596 S·563KiB "loc..seq,v11201":"version,v1"
+14:56:13.644418 version@stat F·[0 1] S·563KiB[0B 563KiB] Sc·[0.00 0.01]
+14:56:13.698603 table@compaction committed F-2 S-358KiB Ke·0 D·25890 T·105.318541ms
+14:56:13.699581 table@remove removed @13
+14:56:13.699797 table@remove removed @8
+15:37:10.295279 memdb@flush N·37397 S·3MiB
+15:37:10.338955 memdb@flush created L0@16 N·37397 S·750KiB "n:\x00..ing,v74852":"n:\xff..ing,v85179"
+15:37:10.339097 version@stat F·[1 1] S·1MiB[750KiB 563KiB] Sc·[0.25 0.01]
+15:37:10.357735 memdb@flush committed F·1 T·62.305958ms
+15:37:10.359303 journal@remove removed @12
+15:37:25.369003 table@compaction L0·1 -> L1·1 S·1MiB Q·86486
+15:37:25.418421 table@build created L1@17 N·24836 S·889KiB "loc..seq,v11201":"version,v1"
+15:37:25.419581 version@stat F·[0 1] S·889KiB[0B 889KiB] Sc·[0.00 0.01]
+15:37:25.491606 table@compaction committed F-1 S-423KiB Ke·0 D·28157 T·122.521292ms
+15:37:25.492655 table@remove removed @16
+15:37:25.492933 table@remove removed @14
+16:46:52.264394 memdb@flush N·36878 S·3MiB
+16:46:52.308362 memdb@flush created L0@19 N·36878 S·726KiB "n:\x00..ing,v99300":"n:\xff..ing,v89658"
+16:46:52.308467 version@stat F·[1 1] S·1MiB[726KiB 889KiB] Sc·[0.25 0.01]
+16:46:52.327406 memdb@flush committed F·1 T·62.9325ms
+16:46:52.330179 journal@remove removed @15
+16:47:11.070258 table@compaction L0·1 -> L1·1 S·1MiB Q·123510
+16:47:11.126193 table@build created L1@20 N·32608 S·1MiB "loc..seq,v11201":"version,v1"
+16:47:11.126238 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+16:47:11.148433 table@compaction committed F-1 S-448KiB Ke·0 D·29106 T·78.032625ms
+16:47:11.149361 table@remove removed @19
+16:47:11.149577 table@remove removed @17

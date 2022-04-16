@@ -518,5 +518,83 @@ cp -rf contracts_v1 contracts
 cp -rf migrations_v1 migrations
 truffle compile --all
 truffle migrate --network ganache  (check the truffle-config.js it should reflect 1-node port number i.e. 8545)
+truffle migrate --network ganache --reset
+
+This version of µWS is not compatible with your Node.js build:
+
+Error: node-loader:
+Error: Module did not self-register: '/Users/pinkyjain/.nvm/versions/node/v12.22.10/lib/node_modules/truffle/node_modules/ganache/dist/node/3wfpWiF8.node'.
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+
+Compiling your contracts...
+===========================
+✔ Fetching solc version list from solc-bin. Attempt #1
+✔ Fetching solc version list from solc-bin. Attempt #1
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'ganache'
+> Network id:      81397860
+> Block gas limit: 5478114 (0x5396e2)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   ⠋ Blocks: 0            Seconds: 0   > transaction hash:    0xb9d868253ebbc02e6f092e1a4cacfed7c6a095d4c86c160f51bf89c91f264ce4
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xECBa1cc6AA4bB8c25fcb3473eb7Cd0E1A711646B
+   > block number:        159
+   > block timestamp:     1650102634
+   > account:             0x1061755ec5ba90eE23FD293781E1Eac601627823
+   > balance:             904625697166532776746648320380374280103671755200316906876.262375061821325312
+   > gas used:            248854 (0x3cc16)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000000248854 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000000000000248854 ETH
+
+
+2_deploy_erc20_contract.js
+==========================
+
+   Deploying 'ERC1967Proxy'
+   ------------------------
+   ⠋ Blocks: 0            Seconds: 0   > transaction hash:    0x50d79717bbd757ac0a5bdf797f0bbb3a4624f8a92c3b15ad7ae0561a21a18576
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x176A62613f13A706d789BD1CcecFA24423900719
+   > block number:        164
+   > block timestamp:     1650102639
+   > account:             0x1061755ec5ba90eE23FD293781E1Eac601627823
+   > balance:             904625697166532776746648320380374280103671755200316906886.262375061821325312
+   > gas used:            483446 (0x76076)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000000483446 ETH
+
+Deployed 0x176A62613f13A706d789BD1CcecFA24423900719
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000000000000483446 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.0000000000007323 ETH
+
 
 ```
