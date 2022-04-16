@@ -1350,3 +1350,42 @@ INFO [04-16|13:38:26.606] Looking for peers                        peercount=2 t
 ERROR[04-16|13:38:34.819] Snapshot extension registration failed   peer=4dfa8e8a err="peer connected on snap without compatible eth support"
 INFO [04-16|13:38:36.685] Looking for peers                        peercount=3 tried=109 static=3
 ERROR[04-16|13:38:39.976] Snapshot extension registration failed   peer=aaa46a88 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:38:47.175] Looking for peers                        peercount=2 tried=85  static=3
+INFO [04-16|13:38:57.188] Looking for peers                        peercount=2 tried=91  static=3
+INFO [04-16|13:39:08.887] Looking for peers                        peercount=2 tried=144 static=3
+INFO [04-16|13:39:18.894] Looking for peers                        peercount=2 tried=102 static=3
+INFO [04-16|13:39:29.249] Looking for peers                        peercount=2 tried=127 static=3
+INFO [04-16|13:39:39.352] Looking for peers                        peercount=2 tried=130 static=3
+ERROR[04-16|13:39:41.642] Snapshot extension registration failed   peer=4dfa8e8a err="peer connected on snap without compatible eth support"
+ERROR[04-16|13:39:47.760] Snapshot extension registration failed   peer=a351b34f err="peer connected on snap without compatible eth support"
+INFO [04-16|13:39:49.354] Looking for peers                        peercount=3 tried=131 static=3
+ERROR[04-16|13:39:57.284] Snapshot extension registration failed   peer=76804bfd err="peer connected on snap without compatible eth support"
+INFO [04-16|13:39:59.403] Looking for peers                        peercount=2 tried=140 static=3
+INFO [04-16|13:40:10.056] Looking for peers                        peercount=2 tried=91  static=3
+INFO [04-16|13:40:20.451] Looking for peers                        peercount=2 tried=105 static=3
+INFO [04-16|13:40:30.831] Looking for peers                        peercount=2 tried=124 static=3
+INFO [04-16|13:40:50.874] Looking for peers                        peercount=4 tried=107 static=3
+INFO [04-16|13:41:00.875] Looking for peers                        peercount=3 tried=49  static=3
+ERROR[04-16|13:41:05.826] Snapshot extension registration failed   peer=02c5bdde err="peer connected on snap without compatible eth support"
+INFO [04-16|13:41:10.879] Looking for peers                        peercount=2 tried=100 static=3
+INFO [04-16|13:41:20.904] Looking for peers                        peercount=3 tried=136 static=3
+INFO [04-16|13:41:31.015] Looking for peers                        peercount=2 tried=136 static=3
+ERROR[04-16|13:41:39.225] Snapshot extension registration failed   peer=b504b033 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:41:42.138] Looking for peers                        peercount=2 tried=117 static=3
+INFO [04-16|13:41:52.598] Looking for peers                        peercount=2 tried=70  static=3
+INFO [04-16|13:42:12.784] Looking for peers                        peercount=2 tried=82  static=3
+ERROR[04-16|13:42:17.866] Snapshot extension registration failed   peer=18eee075 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:42:22.797] Looking for peers                        peercount=2 tried=87  static=3
+INFO [04-16|13:42:32.857] Looking for peers                        peercount=2 tried=73  static=3
+INFO [04-16|13:42:43.131] Looking for peers                        peercount=2 tried=149 static=3
+INFO [04-16|13:42:53.177] Looking for peers                        peercount=2 tried=63  static=3
+INFO [04-16|13:43:03.187] Looking for peers                        peercount=3 tried=74  static=3
+INFO [04-16|13:43:13.760] Looking for peers                        peercount=2 tried=108 static=3
+ERROR[04-16|13:43:14.354] Snapshot extension registration failed   peer=76804bfd err="peer connected on snap without compatible eth support"
+INFO [04-16|13:43:33.797] Looking for peers                        peercount=2 tried=154 static=3
+INFO [04-16|13:43:44.023] Looking for peers                        peercount=2 tried=70  static=3
+INFO [04-16|13:43:54.249] Looking for peers                        peercount=2 tried=119 static=3
+ERROR[04-16|13:43:55.473] Snapshot extension registration failed   peer=a351b34f err="peer connected on snap without compatible eth support"
+ERROR[04-16|13:44:04.034] Snapshot extension registration failed   peer=d3f2bc5a err="peer connected on snap without compatible eth support"
+INFO [04-16|13:44:04.306] Looking for peers                        peercount=3 tried=157 static=3
+INFO [04-16|13:44:14.360] Looking for peers                        peercount=3 tried=65  static=3

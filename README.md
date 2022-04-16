@@ -8,9 +8,76 @@ $ sudo add-apt-repository -y ppa:ethereum/ethereum
 $ sudo apt-get update
 $ sudo apt-get install ethereum
 
+```
+
+### Project structure
+```
+tree -L 3 -I 'truffle-uups-accesscontrol'
+.
+├── 1-node
+│   ├── geth
+│   │   ├── LOCK
+│   │   ├── chaindata
+│   │   ├── lightchaindata
+│   │   ├── nodekey
+│   │   ├── nodes
+│   │   └── transactions.rlp
+│   ├── geth.ipc
+│   ├── keystore
+│   │   ├── UTC--2022-04-16T01-26-21.524049000Z--1061755ec5ba90ee23fd293781e1eac601627823
+│   │   └── UTC--2022-04-16T04-03-22.603347000Z--c136997c76e1c3b6b3d17de1ba6c80c2e72dad16
+│   ├── node1.sh
+│   ├── nohup.out
+│   ├── password.txt
+│   └── static-nodes.json
+├── 2-node
+│   ├── geth
+│   │   ├── LOCK
+│   │   ├── chaindata
+│   │   ├── ethash
+│   │   ├── lightchaindata
+│   │   ├── nodekey
+│   │   ├── nodes
+│   │   └── transactions.rlp
+│   ├── geth.ipc
+│   ├── keystore
+│   │   └── UTC--2022-04-16T01-28-18.708470000Z--6958d88cc31e1ee6b72f2fbf1f00d93d89104667
+│   ├── node2.sh
+│   ├── nohup.out
+│   ├── password.txt
+│   └── static-nodes.json
+├── 3-node
+│   ├── geth
+│   │   ├── LOCK
+│   │   ├── chaindata
+│   │   ├── ethash
+│   │   ├── lightchaindata
+│   │   ├── nodekey
+│   │   ├── nodes
+│   │   └── transactions.rlp
+│   ├── geth.ipc
+│   ├── keystore
+│   │   └── UTC--2022-04-16T01-28-55.817740000Z--c5a13bc74ae6344618e41e1d4b2921aa6a6ce54f
+│   ├── node3.sh
+│   ├── nohup.out
+│   ├── password.txt
+│   └── static-nodes.json
+├── README.md
+├── accounts.txt
+├── privatenetwork-aleth.json
+├── privatenetwork-harmony.json
+├── privatenetwork-parity.json
+└── privatenetwork.json
+
+20 directories, 34 files
+```
+
+### Installation
+```
 mkdir ethereum-private-blockchain
 cd ethereum-private-blockchain/
 mkdir 1-node 2-node 3-node
+
 ```
 ### Create accounts
 ```
@@ -235,6 +302,7 @@ nohup geth --nousb \
      --mine \
      --allow-insecure-unlock \
      --unlock "0x1061755ec5ba90eE23FD293781E1Eac601627823" \
+     --networkid 81397860 \
      --password password.txt &
 echo "Geth started on node 1" 
 
@@ -253,6 +321,7 @@ nohup geth --nousb \
      --mine \
      --allow-insecure-unlock \
      --unlock "0x6958D88CC31E1Ee6B72f2FBf1f00d93D89104667" \
+     --networkid 81397860 \
      --password password.txt &
 echo "Geth started on node 2" 
 
@@ -271,6 +340,7 @@ nohup geth --nousb \
      --mine \
      --allow-insecure-unlock \
      --unlock "0xC5a13BC74AE6344618e41E1d4b2921aA6A6ce54F" \
+     --networkid 81397860 \
      --password password.txt &
 echo "Geth started on node 3" 
 ```

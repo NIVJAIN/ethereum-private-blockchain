@@ -672,3 +672,38 @@ INFO [04-16|13:38:08.901] Looking for peers                        peercount=3 t
 INFO [04-16|13:38:18.960] Looking for peers                        peercount=2 tried=157 static=3
 INFO [04-16|13:38:28.975] Looking for peers                        peercount=2 tried=65  static=3
 INFO [04-16|13:38:39.079] Looking for peers                        peercount=2 tried=104 static=3
+ERROR[04-16|13:38:46.568] Snapshot extension registration failed   peer=13e540a5 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:38:49.166] Looking for peers                        peercount=2 tried=78  static=3
+INFO [04-16|13:38:59.508] Looking for peers                        peercount=2 tried=95  static=3
+INFO [04-16|13:39:09.749] Looking for peers                        peercount=2 tried=53  static=3
+INFO [04-16|13:39:21.198] Looking for peers                        peercount=3 tried=108 static=3
+INFO [04-16|13:39:31.222] Looking for peers                        peercount=2 tried=128 static=3
+ERROR[04-16|13:39:50.143] Snapshot extension registration failed   peer=04dfa983 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:39:51.277] Looking for peers                        peercount=2 tried=121 static=3
+INFO [04-16|13:40:13.381] Looking for peers                        peercount=3 tried=159 static=3
+INFO [04-16|13:40:23.531] Looking for peers                        peercount=2 tried=106 static=3
+INFO [04-16|13:40:33.643] Looking for peers                        peercount=2 tried=84  static=3
+INFO [04-16|13:40:43.652] Looking for peers                        peercount=2 tried=85  static=3
+INFO [04-16|13:40:53.871] Looking for peers                        peercount=2 tried=120 static=3
+INFO [04-16|13:41:03.882] Looking for peers                        peercount=2 tried=114 static=3
+INFO [04-16|13:41:13.932] Looking for peers                        peercount=2 tried=80  static=3
+INFO [04-16|13:41:24.249] Looking for peers                        peercount=2 tried=65  static=3
+ERROR[04-16|13:41:24.840] Snapshot extension registration failed   peer=a606c77e err="peer connected on snap without compatible eth support"
+ERROR[04-16|13:41:29.463] Snapshot extension registration failed   peer=369195b1 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:41:34.409] Looking for peers                        peercount=2 tried=95  static=3
+INFO [04-16|13:41:45.251] Looking for peers                        peercount=2 tried=89  static=3
+ERROR[04-16|13:41:46.134] Snapshot extension registration failed   peer=1fdbbcbd err="peer connected on snap without compatible eth support"
+INFO [04-16|13:41:55.317] Looking for peers                        peercount=3 tried=95  static=3
+INFO [04-16|13:42:05.393] Looking for peers                        peercount=2 tried=64  static=3
+INFO [04-16|13:42:15.757] Looking for peers                        peercount=2 tried=43  static=3
+INFO [04-16|13:42:38.114] Looking for peers                        peercount=2 tried=69  static=3
+INFO [04-16|13:42:48.130] Looking for peers                        peercount=3 tried=180 static=3
+ERROR[04-16|13:42:54.479] Snapshot extension registration failed   peer=f25a8758 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:42:59.731] Looking for peers                        peercount=2 tried=102 static=3
+INFO [04-16|13:43:09.735] Looking for peers                        peercount=2 tried=72  static=3
+INFO [04-16|13:43:19.765] Looking for peers                        peercount=2 tried=171 static=3
+INFO [04-16|13:43:29.838] Looking for peers                        peercount=2 tried=43  static=3
+INFO [04-16|13:43:40.123] Looking for peers                        peercount=2 tried=138 static=3
+INFO [04-16|13:43:50.142] Looking for peers                        peercount=2 tried=94  static=3
+ERROR[04-16|13:43:58.198] Snapshot extension registration failed   peer=f25a8758 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:44:00.169] Looking for peers                        peercount=3 tried=115 static=3
