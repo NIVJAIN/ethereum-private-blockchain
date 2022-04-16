@@ -1,0 +1,671 @@
+INFO [04-16|11:34:28.534] Starting Geth on Ethereum mainnet... 
+INFO [04-16|11:34:28.534] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [04-16|11:34:28.535] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [04-16|11:34:28.535] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [04-16|11:34:28.536] The generic --miner.gastarget flag is deprecated and will be removed in the future! 
+INFO [04-16|11:34:28.536] Set global gas cap                       cap=50,000,000
+WARN [04-16|11:34:28.536] Sanitizing invalid miner gas price       provided=0    updated=0
+INFO [04-16|11:34:28.536] Allocated trie memory caches             clean=614.00MiB dirty=1024.00MiB
+INFO [04-16|11:34:28.536] Allocated cache and file handles         database=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/chaindata cache=2.00GiB handles=5120
+INFO [04-16|11:34:28.894] Opened ancient database                  database=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/chaindata/ancient readonly=false
+INFO [04-16|11:34:28.895] Initialised chain configuration          config="{ChainID: 81397860 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [04-16|11:34:28.895] Disk storage enabled for ethash caches   dir=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/ethash count=3
+INFO [04-16|11:34:28.895] Disk storage enabled for ethash DAGs     dir=/Users/pinkyjain/Library/Ethash count=2
+INFO [04-16|11:34:28.895] Initialising Ethereum protocol           network=1 dbversion=<nil>
+INFO [04-16|11:34:28.896] Loaded most recent local header          number=0 hash=45f8f1..978eab td=524,288 age=1h14m14s
+INFO [04-16|11:34:28.896] Loaded most recent local full block      number=0 hash=45f8f1..978eab td=524,288 age=1h14m14s
+INFO [04-16|11:34:28.896] Loaded most recent local fast block      number=0 hash=45f8f1..978eab td=524,288 age=1h14m14s
+WARN [04-16|11:34:28.896] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [04-16|11:34:28.896] Rebuilding state snapshot 
+INFO [04-16|11:34:28.896] Resuming state snapshot generation       root=df80bc..88f950 accounts=0 slots=0 storage=0.00B elapsed="181.584µs"
+INFO [04-16|11:34:28.896] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-16|11:34:28.896] Gasprice oracle is ignoring threshold set threshold=2
+WARN [04-16|11:34:28.896] Error reading unclean shutdown markers   error="leveldb: not found"
+INFO [04-16|11:34:28.896] Starting peer-to-peer node               instance=Geth/v1.10.16-stable/darwin-arm64/go1.17.6
+INFO [04-16|11:34:28.915] Generated state snapshot                 accounts=259 slots=0 storage=9.71KiB elapsed=18.878ms
+INFO [04-16|11:34:29.020] New local node record                    seq=1,650,080,069,017 id=839fd6efab51a365 ip=127.0.0.1 udp=30312 tcp=30312
+INFO [04-16|11:34:29.020] Started P2P networking                   self=enode://f3ee7d5544df2fec2f3a36187b842d26dfeb7e25884c51b5a788d3f17bb8b4b3773806b83121c6141fd39568764332833a55ebebdf73d10c195ef56b05d68074@127.0.0.1:30312
+INFO [04-16|11:34:29.021] IPC endpoint opened                      url=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth.ipc
+INFO [04-16|11:34:29.023] HTTP server started                      endpoint=127.0.0.1:8547 prefix= cors= vhosts=localhost
+INFO [04-16|11:34:29.496] Unlocked account                         address=0xC5a13BC74AE6344618e41E1d4b2921aA6A6ce54F
+INFO [04-16|11:34:29.497] Transaction pool price threshold updated price=0
+INFO [04-16|11:34:29.497] Updated mining threads                   threads=0
+INFO [04-16|11:34:29.497] Transaction pool price threshold updated price=0
+INFO [04-16|11:34:29.497] Etherbase automatically configured       address=0xC5a13BC74AE6344618e41E1d4b2921aA6A6ce54F
+INFO [04-16|11:34:29.497] Commit new sealing work                  number=1 sealhash=8eb4ce..d2cf66 uncles=0 txs=0 gas=0 fees=0 elapsed="156.25µs"
+INFO [04-16|11:34:29.497] Commit new sealing work                  number=1 sealhash=8eb4ce..d2cf66 uncles=0 txs=0 gas=0 fees=0 elapsed="232.25µs"
+INFO [04-16|11:34:31.457] New local node record                    seq=1,650,080,069,018 id=839fd6efab51a365 ip=116.86.144.27 udp=30312 tcp=30312
+INFO [04-16|11:34:31.833] Mapped network port                      proto=udp extport=30312 intport=30312 interface="UPNP IGDv1-IP1"
+INFO [04-16|11:34:32.319] Mapped network port                      proto=tcp extport=30312 intport=30312 interface="UPNP IGDv1-IP1"
+INFO [04-16|11:34:39.040] Looking for peers                        peercount=0 tried=18 static=0
+INFO [04-16|11:34:49.381] Looking for peers                        peercount=0 tried=34 static=0
+INFO [04-16|11:34:59.489] Looking for peers                        peercount=1 tried=35 static=0
+INFO [04-16|11:35:09.720] Looking for peers                        peercount=0 tried=34 static=0
+ERROR[04-16|11:35:13.789] Snapshot extension registration failed   peer=e41c7a7a err="peer connected on snap without compatible eth support"
+INFO [04-16|11:35:19.721] Looking for peers                        peercount=0 tried=34 static=0
+INFO [04-16|11:35:30.047] Looking for peers                        peercount=0 tried=34 static=0
+INFO [04-16|11:35:40.390] Looking for peers                        peercount=0 tried=32 static=0
+ERROR[04-16|11:35:47.267] Snapshot extension registration failed   peer=c9d037fc err="peer connected on snap without compatible eth support"
+ERROR[04-16|11:35:49.282] Snapshot extension registration failed   peer=7473a317 err="peer connected on snap without compatible eth support"
+INFO [04-16|11:35:50.454] Looking for peers                        peercount=0 tried=36 static=0
+INFO [04-16|11:36:00.528] Looking for peers                        peercount=0 tried=38 static=0
+ERROR[04-16|11:36:05.346] Snapshot extension registration failed   peer=314f52b7 err="peer connected on snap without compatible eth support"
+INFO [04-16|11:36:10.607] Looking for peers                        peercount=1 tried=20 static=0
+INFO [04-16|11:36:20.805] Looking for peers                        peercount=0 tried=34 static=0
+INFO [04-16|11:36:31.061] Looking for peers                        peercount=0 tried=32 static=0
+ERROR[04-16|11:36:39.629] Snapshot extension registration failed   peer=71a36244 err="peer connected on snap without compatible eth support"
+INFO [04-16|11:36:41.136] Looking for peers                        peercount=0 tried=40 static=0
+INFO [04-16|11:36:51.139] Looking for peers                        peercount=0 tried=40 static=0
+INFO [04-16|11:37:01.291] Looking for peers                        peercount=0 tried=37 static=0
+INFO [04-16|11:37:11.470] Looking for peers                        peercount=0 tried=30 static=0
+INFO [04-16|11:37:21.473] Looking for peers                        peercount=0 tried=36 static=0
+ERROR[04-16|11:37:25.704] Snapshot extension registration failed   peer=a1c2ebf3 err="peer connected on snap without compatible eth support"
+INFO [04-16|11:37:31.805] Looking for peers                        peercount=0 tried=30 static=0
+INFO [04-16|11:37:42.141] Looking for peers                        peercount=0 tried=37 static=0
+ERROR[04-16|11:37:43.121] Snapshot extension registration failed   peer=5b0bae44 err="peer connected on snap without compatible eth support"
+INFO [04-16|11:58:12.113] Starting Geth on Ethereum mainnet... 
+INFO [04-16|11:58:12.113] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [04-16|11:58:12.114] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [04-16|11:58:12.114] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [04-16|11:58:12.115] Found deprecated node list file /Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/static-nodes.json, please use the TOML config file instead. 
+WARN [04-16|11:58:12.115] The generic --miner.gastarget flag is deprecated and will be removed in the future! 
+INFO [04-16|11:58:12.115] Set global gas cap                       cap=50,000,000
+WARN [04-16|11:58:12.115] Sanitizing invalid miner gas price       provided=0    updated=0
+INFO [04-16|11:58:12.115] Allocated trie memory caches             clean=614.00MiB dirty=1024.00MiB
+INFO [04-16|11:58:12.115] Allocated cache and file handles         database=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/chaindata cache=2.00GiB handles=5120
+INFO [04-16|11:58:12.280] Opened ancient database                  database=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/chaindata/ancient readonly=false
+INFO [04-16|11:58:12.280] Initialised chain configuration          config="{ChainID: 81397860 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [04-16|11:58:12.281] Disk storage enabled for ethash caches   dir=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/ethash count=3
+INFO [04-16|11:58:12.281] Disk storage enabled for ethash DAGs     dir=/Users/pinkyjain/Library/Ethash count=2
+INFO [04-16|11:58:12.281] Initialising Ethereum protocol           network=1 dbversion=8
+INFO [04-16|11:58:12.281] Loaded most recent local header          number=0 hash=45f8f1..978eab td=524,288 age=1h37m58s
+INFO [04-16|11:58:12.281] Loaded most recent local full block      number=0 hash=45f8f1..978eab td=524,288 age=1h37m58s
+INFO [04-16|11:58:12.281] Loaded most recent local fast block      number=0 hash=45f8f1..978eab td=524,288 age=1h37m58s
+WARN [04-16|11:58:12.282] Loaded snapshot journal                  diskroot=df80bc..88f950 diffs=missing
+INFO [04-16|11:58:12.282] Loaded local transaction journal         transactions=0 dropped=0
+INFO [04-16|11:58:12.282] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-16|11:58:12.282] Gasprice oracle is ignoring threshold set threshold=2
+WARN [04-16|11:58:12.282] Unclean shutdown detected                booted=2022-04-16T11:34:28+0800 age=23m44s
+INFO [04-16|11:58:12.282] Starting peer-to-peer node               instance=Geth/v1.10.16-stable/darwin-arm64/go1.17.6
+INFO [04-16|11:58:12.387] New local node record                    seq=1,650,080,069,019 id=839fd6efab51a365 ip=127.0.0.1 udp=30312 tcp=30312
+INFO [04-16|11:58:12.387] Started P2P networking                   self=enode://f3ee7d5544df2fec2f3a36187b842d26dfeb7e25884c51b5a788d3f17bb8b4b3773806b83121c6141fd39568764332833a55ebebdf73d10c195ef56b05d68074@127.0.0.1:30312
+INFO [04-16|11:58:12.387] IPC endpoint opened                      url=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth.ipc
+INFO [04-16|11:58:12.389] HTTP server started                      endpoint=127.0.0.1:8547 prefix= cors= vhosts=localhost
+INFO [04-16|11:58:12.886] Unlocked account                         address=0xC5a13BC74AE6344618e41E1d4b2921aA6A6ce54F
+INFO [04-16|11:58:12.886] Transaction pool price threshold updated price=0
+INFO [04-16|11:58:12.886] Updated mining threads                   threads=0
+INFO [04-16|11:58:12.886] Transaction pool price threshold updated price=0
+INFO [04-16|11:58:12.886] Etherbase automatically configured       address=0xC5a13BC74AE6344618e41E1d4b2921aA6A6ce54F
+INFO [04-16|11:58:12.886] Commit new sealing work                  number=1 sealhash=f93f9a..cd7e66 uncles=0 txs=0 gas=0 fees=0 elapsed="208.125µs"
+INFO [04-16|11:58:12.886] Commit new sealing work                  number=1 sealhash=f93f9a..cd7e66 uncles=0 txs=0 gas=0 fees=0 elapsed="270.792µs"
+INFO [04-16|11:58:14.722] New local node record                    seq=1,650,080,069,020 id=839fd6efab51a365 ip=116.86.144.27 udp=30312 tcp=30312
+INFO [04-16|11:58:15.197] Mapped network port                      proto=tcp extport=30312 intport=30312 interface="UPNP IGDv1-IP1"
+INFO [04-16|11:58:15.685] Mapped network port                      proto=udp extport=30312 intport=30312 interface="UPNP IGDv1-IP1"
+INFO [04-16|11:58:22.465] Looking for peers                        peercount=2 tried=8 static=3
+INFO [04-16|11:58:32.545] Looking for peers                        peercount=2 tried=23 static=3
+INFO [04-16|11:58:42.998] Looking for peers                        peercount=2 tried=30 static=3
+INFO [04-16|11:58:53.115] Looking for peers                        peercount=2 tried=30 static=3
+INFO [04-16|11:59:03.161] Looking for peers                        peercount=2 tried=15 static=3
+INFO [04-16|11:59:13.163] Looking for peers                        peercount=2 tried=16 static=3
+INFO [04-16|11:59:23.831] Looking for peers                        peercount=2 tried=10 static=3
+INFO [04-16|11:59:33.832] Looking for peers                        peercount=2 tried=11 static=3
+INFO [04-16|11:59:44.201] Looking for peers                        peercount=2 tried=17 static=3
+INFO [04-16|11:59:54.250] Looking for peers                        peercount=2 tried=21 static=3
+INFO [04-16|12:00:04.283] Looking for peers                        peercount=2 tried=8  static=3
+INFO [04-16|12:00:14.328] Looking for peers                        peercount=2 tried=14 static=3
+INFO [04-16|12:00:24.375] Looking for peers                        peercount=2 tried=17 static=3
+INFO [04-16|12:00:34.413] Looking for peers                        peercount=2 tried=23 static=3
+ERROR[04-16|12:00:35.470] Snapshot extension registration failed   peer=150ea310 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:00:44.457] Looking for peers                        peercount=2 tried=42 static=3
+INFO [04-16|12:00:54.518] Looking for peers                        peercount=2 tried=26 static=3
+INFO [04-16|12:01:14.591] Looking for peers                        peercount=2 tried=25 static=3
+INFO [04-16|12:01:24.596] Looking for peers                        peercount=2 tried=26 static=3
+INFO [04-16|12:01:34.607] Looking for peers                        peercount=2 tried=16 static=3
+INFO [04-16|12:01:46.625] Looking for peers                        peercount=2 tried=13 static=3
+ERROR[04-16|12:01:48.176] Snapshot extension registration failed   peer=c1bb7cc4 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:01:57.674] Looking for peers                        peercount=2 tried=17 static=3
+INFO [04-16|12:02:07.719] Looking for peers                        peercount=2 tried=13 static=3
+ERROR[04-16|12:02:08.187] Snapshot extension registration failed   peer=decab1a9 err="peer connected on snap without compatible eth support"
+ERROR[04-16|12:02:11.622] Snapshot extension registration failed   peer=1d4ddff1 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:02:17.766] Looking for peers                        peercount=2 tried=13 static=3
+INFO [04-16|12:02:27.804] Looking for peers                        peercount=2 tried=22 static=3
+INFO [04-16|12:02:37.838] Looking for peers                        peercount=2 tried=11 static=3
+INFO [04-16|12:02:47.883] Looking for peers                        peercount=2 tried=19 static=3
+INFO [04-16|12:02:57.920] Looking for peers                        peercount=2 tried=19 static=3
+INFO [04-16|12:03:07.950] Looking for peers                        peercount=2 tried=21 static=3
+INFO [04-16|12:03:18.007] Looking for peers                        peercount=2 tried=31 static=3
+INFO [04-16|12:03:28.047] Looking for peers                        peercount=2 tried=23 static=3
+INFO [04-16|12:03:38.113] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:03:48.115] Looking for peers                        peercount=2 tried=36 static=3
+ERROR[04-16|12:03:50.612] Snapshot extension registration failed   peer=cb1b860c err="peer connected on snap without compatible eth support"
+INFO [04-16|12:03:58.137] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:04:08.803] Looking for peers                        peercount=3 tried=21 static=3
+INFO [04-16|12:04:18.812] Looking for peers                        peercount=2 tried=23 static=3
+ERROR[04-16|12:04:23.530] Snapshot extension registration failed   peer=c36b1b21 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:04:28.812] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|12:04:38.956] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|12:04:58.970] Looking for peers                        peercount=2 tried=40 static=3
+ERROR[04-16|12:05:00.811] Snapshot extension registration failed   peer=5958ac56 err="peer connected on snap without compatible eth support"
+ERROR[04-16|12:05:04.246] Snapshot extension registration failed   peer=8617c4b3 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:05:08.998] Looking for peers                        peercount=2 tried=42 static=3
+INFO [04-16|12:05:18.999] Looking for peers                        peercount=2 tried=34 static=3
+ERROR[04-16|12:05:26.539] Snapshot extension registration failed   peer=948a3363 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:05:29.284] Looking for peers                        peercount=2 tried=44 static=3
+INFO [04-16|12:05:39.185] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.429ms     mgasps=0.000 number=1 hash=2e58cc..b0752a age=7m46s    dirty=1.30KiB
+INFO [04-16|12:05:39.185] Commit new sealing work                  number=2 sealhash=d84bb0..cf8fe7 uncles=0 txs=0 gas=0 fees=0 elapsed="64.708µs"
+INFO [04-16|12:05:39.185] Commit new sealing work                  number=2 sealhash=d84bb0..cf8fe7 uncles=0 txs=0 gas=0 fees=0 elapsed="120.083µs"
+INFO [04-16|12:05:39.291] Looking for peers                        peercount=2 tried=32 static=3
+INFO [04-16|12:05:39.619] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.701ms     mgasps=0.000 number=2 hash=4b80cc..7fd8da dirty=2.97KiB
+INFO [04-16|12:05:39.619] Commit new sealing work                  number=3 sealhash=1c67c7..71eea9 uncles=0 txs=0 gas=0 fees=0 elapsed="274.709µs"
+INFO [04-16|12:05:39.619] Commit new sealing work                  number=3 sealhash=1c67c7..71eea9 uncles=0 txs=0 gas=0 fees=0 elapsed="481.084µs"
+INFO [04-16|12:05:39.795] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.254ms     mgasps=0.000 number=3 hash=bb2b3d..c6834b dirty=4.42KiB
+INFO [04-16|12:05:39.795] Commit new sealing work                  number=4 sealhash=a553e8..b682a9 uncles=0 txs=0 gas=0 fees=0 elapsed="61.042µs"
+INFO [04-16|12:05:39.795] Commit new sealing work                  number=4 sealhash=a553e8..b682a9 uncles=0 txs=0 gas=0 fees=0 elapsed="114.625µs"
+INFO [04-16|12:05:39.922] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.496ms     mgasps=0.000 number=4 hash=0d7745..8b8881 dirty=5.87KiB
+INFO [04-16|12:05:39.922] Commit new sealing work                  number=5 sealhash=f77235..41ba2a uncles=0 txs=0 gas=0 fees=0 elapsed="64.541µs"
+INFO [04-16|12:05:39.922] Commit new sealing work                  number=5 sealhash=f77235..41ba2a uncles=0 txs=0 gas=0 fees=0 elapsed="122.958µs"
+INFO [04-16|12:05:40.560] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.266ms     mgasps=0.000 number=5 hash=62e7b2..30e3e0 dirty=7.31KiB
+INFO [04-16|12:05:40.560] Commit new sealing work                  number=6 sealhash=2ab0aa..2018d9 uncles=0 txs=0 gas=0 fees=0 elapsed="165.917µs"
+INFO [04-16|12:05:40.560] Commit new sealing work                  number=6 sealhash=2ab0aa..2018d9 uncles=0 txs=0 gas=0 fees=0 elapsed="295.167µs"
+INFO [04-16|12:05:41.933] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.851ms     mgasps=0.000 number=6 hash=ce3cc7..57191d dirty=8.76KiB
+INFO [04-16|12:05:41.934] Commit new sealing work                  number=7 sealhash=20e71a..73afb0 uncles=0 txs=0 gas=0 fees=0 elapsed="223.25µs"
+INFO [04-16|12:05:41.934] Commit new sealing work                  number=7 sealhash=20e71a..73afb0 uncles=0 txs=0 gas=0 fees=0 elapsed="417.375µs"
+INFO [04-16|12:05:43.307] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.523ms     mgasps=0.000 number=7 hash=c31c2d..2986c2 dirty=10.21KiB
+INFO [04-16|12:05:43.307] Commit new sealing work                  number=8 sealhash=ab7e33..5296b8 uncles=0 txs=0 gas=0 fees=0 elapsed="150.417µs"
+INFO [04-16|12:05:43.307] Commit new sealing work                  number=8 sealhash=ab7e33..5296b8 uncles=0 txs=0 gas=0 fees=0 elapsed="260.5µs"
+INFO [04-16|12:05:43.680] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.054ms     mgasps=0.000 number=8 hash=662b95..663440 dirty=11.66KiB
+INFO [04-16|12:05:43.680] Commit new sealing work                  number=9 sealhash=3f0b87..a43d80 uncles=0 txs=0 gas=0 fees=0 elapsed="67.167µs"
+INFO [04-16|12:05:43.680] Commit new sealing work                  number=9 sealhash=3f0b87..a43d80 uncles=0 txs=0 gas=0 fees=0 elapsed="139.958µs"
+INFO [04-16|12:05:43.982] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.149ms     mgasps=0.000 number=9 hash=24cd0c..386bfd dirty=13.10KiB
+INFO [04-16|12:05:43.982] Commit new sealing work                  number=10 sealhash=0ae5b3..fe6539 uncles=0 txs=0 gas=0 fees=0 elapsed="176.792µs"
+INFO [04-16|12:05:43.982] Commit new sealing work                  number=10 sealhash=0ae5b3..fe6539 uncles=0 txs=0 gas=0 fees=0 elapsed="288.292µs"
+INFO [04-16|12:05:44.065] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.227ms     mgasps=0.000 number=10 hash=d7456a..368bb8 dirty=14.55KiB
+INFO [04-16|12:05:44.065] Commit new sealing work                  number=11 sealhash=138af5..ce37d6 uncles=0 txs=0 gas=0 fees=0 elapsed="59.458µs"
+INFO [04-16|12:05:44.065] Commit new sealing work                  number=11 sealhash=138af5..ce37d6 uncles=0 txs=0 gas=0 fees=0 elapsed="111.958µs"
+INFO [04-16|12:05:44.450] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.474ms     mgasps=0.000 number=11 hash=0d07fb..2f8986 dirty=16.00KiB
+INFO [04-16|12:05:44.450] Commit new sealing work                  number=12 sealhash=059c29..4678a1 uncles=0 txs=0 gas=0 fees=0 elapsed="63.417µs"
+INFO [04-16|12:05:44.450] Commit new sealing work                  number=12 sealhash=059c29..4678a1 uncles=0 txs=0 gas=0 fees=0 elapsed="119.709µs"
+INFO [04-16|12:05:44.709] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.526ms     mgasps=0.000 number=12 hash=cfd11f..404061 dirty=17.45KiB
+INFO [04-16|12:05:44.709] Commit new sealing work                  number=13 sealhash=bd8230..42b606 uncles=0 txs=0 gas=0 fees=0 elapsed="60.125µs"
+INFO [04-16|12:05:44.709] Commit new sealing work                  number=13 sealhash=bd8230..42b606 uncles=0 txs=0 gas=0 fees=0 elapsed="124.958µs"
+INFO [04-16|12:05:45.342] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.825ms     mgasps=0.000 number=13 hash=83d203..8f7035 dirty=18.89KiB
+INFO [04-16|12:05:45.343] Commit new sealing work                  number=14 sealhash=4e4994..27e4e4 uncles=0 txs=0 gas=0 fees=0 elapsed="222.167µs"
+INFO [04-16|12:05:45.343] Commit new sealing work                  number=14 sealhash=4e4994..27e4e4 uncles=0 txs=0 gas=0 fees=0 elapsed="393.042µs"
+INFO [04-16|12:05:45.651] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.500ms     mgasps=0.000 number=14 hash=a19d25..35dcf1 dirty=20.34KiB
+INFO [04-16|12:05:45.652] Commit new sealing work                  number=15 sealhash=64ea26..a0e0a3 uncles=0 txs=0 gas=0 fees=0 elapsed="262.75µs"
+INFO [04-16|12:05:45.652] Commit new sealing work                  number=15 sealhash=64ea26..a0e0a3 uncles=0 txs=0 gas=0 fees=0 elapsed="448.083µs"
+INFO [04-16|12:05:46.232] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.017ms     mgasps=0.000 number=15 hash=74b1be..be1a34 dirty=21.79KiB
+INFO [04-16|12:05:46.232] Commit new sealing work                  number=16 sealhash=c54b22..63efb9 uncles=0 txs=0 gas=0 fees=0 elapsed="95.042µs"
+INFO [04-16|12:05:46.232] Commit new sealing work                  number=16 sealhash=c54b22..63efb9 uncles=0 txs=0 gas=0 fees=0 elapsed="193µs"
+INFO [04-16|12:05:46.716] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.331ms     mgasps=0.000 number=16 hash=d93874..f80958 dirty=23.24KiB
+INFO [04-16|12:05:46.716] Commit new sealing work                  number=17 sealhash=94e69b..421c2b uncles=0 txs=0 gas=0 fees=0 elapsed="74.333µs"
+INFO [04-16|12:05:46.716] Commit new sealing work                  number=17 sealhash=94e69b..421c2b uncles=0 txs=0 gas=0 fees=0 elapsed="138.916µs"
+INFO [04-16|12:05:48.598] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.798ms     mgasps=0.000 number=17 hash=248265..1abb52 dirty=24.69KiB
+INFO [04-16|12:05:48.598] Commit new sealing work                  number=18 sealhash=ea166a..175dee uncles=0 txs=0 gas=0 fees=0 elapsed="64.542µs"
+INFO [04-16|12:05:48.599] Commit new sealing work                  number=18 sealhash=ea166a..175dee uncles=0 txs=0 gas=0 fees=0 elapsed="117.417µs"
+INFO [04-16|12:05:49.624] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|12:05:50.554] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.423ms     mgasps=0.000 number=18 hash=85fdba..393920 dirty=26.14KiB
+INFO [04-16|12:05:50.554] Commit new sealing work                  number=19 sealhash=076d6b..2e4fd5 uncles=0 txs=0 gas=0 fees=0 elapsed="103.291µs"
+INFO [04-16|12:05:50.554] Commit new sealing work                  number=19 sealhash=076d6b..2e4fd5 uncles=0 txs=0 gas=0 fees=0 elapsed="187.208µs"
+INFO [04-16|12:05:50.627] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.164ms     mgasps=0.000 number=19 hash=440199..bfa78c dirty=27.58KiB
+INFO [04-16|12:05:50.627] Commit new sealing work                  number=20 sealhash=8fdb32..1793bf uncles=0 txs=0 gas=0 fees=0 elapsed="64.916µs"
+INFO [04-16|12:05:50.627] Commit new sealing work                  number=20 sealhash=8fdb32..1793bf uncles=0 txs=0 gas=0 fees=0 elapsed="120.458µs"
+INFO [04-16|12:05:51.770] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.768ms     mgasps=0.000 number=20 hash=403518..4e24d3 dirty=29.03KiB
+INFO [04-16|12:05:51.770] Commit new sealing work                  number=21 sealhash=ed4008..5d5cd6 uncles=0 txs=0 gas=0 fees=0 elapsed="63.792µs"
+INFO [04-16|12:05:51.770] Commit new sealing work                  number=21 sealhash=ed4008..5d5cd6 uncles=0 txs=0 gas=0 fees=0 elapsed="265.5µs"
+INFO [04-16|12:05:52.817] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.545ms     mgasps=0.000 number=21 hash=24aa0a..8e96f6 dirty=30.48KiB
+INFO [04-16|12:05:52.818] Commit new sealing work                  number=22 sealhash=b07387..52b22d uncles=0 txs=0 gas=0 fees=0 elapsed="57.709µs"
+INFO [04-16|12:05:52.818] Commit new sealing work                  number=22 sealhash=b07387..52b22d uncles=0 txs=0 gas=0 fees=0 elapsed="109µs"
+INFO [04-16|12:05:53.158] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.772ms     mgasps=0.000 number=22 hash=6f5c53..addb30 dirty=31.93KiB
+INFO [04-16|12:05:53.159] Commit new sealing work                  number=23 sealhash=5f49b8..a45fb3 uncles=0 txs=0 gas=0 fees=0 elapsed="75µs"
+INFO [04-16|12:05:53.159] Commit new sealing work                  number=23 sealhash=5f49b8..a45fb3 uncles=0 txs=0 gas=0 fees=0 elapsed="159.916µs"
+INFO [04-16|12:05:53.430] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.478ms     mgasps=0.000 number=23 hash=5c9f15..922488 dirty=33.38KiB
+INFO [04-16|12:05:53.430] Commit new sealing work                  number=24 sealhash=b42b69..1c576b uncles=0 txs=0 gas=0 fees=0 elapsed="65.375µs"
+INFO [04-16|12:05:53.430] Commit new sealing work                  number=24 sealhash=b42b69..1c576b uncles=0 txs=0 gas=0 fees=0 elapsed="120.583µs"
+INFO [04-16|12:05:53.639] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.892ms     mgasps=0.000 number=24 hash=114a81..50294f dirty=34.83KiB
+INFO [04-16|12:05:53.639] Commit new sealing work                  number=25 sealhash=3561f8..2187df uncles=0 txs=0 gas=0 fees=0 elapsed="67.375µs"
+INFO [04-16|12:05:53.639] Commit new sealing work                  number=25 sealhash=3561f8..2187df uncles=0 txs=0 gas=0 fees=0 elapsed="133.417µs"
+INFO [04-16|12:05:54.561] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.725ms     mgasps=0.000 number=25 hash=bc5ba2..cc6b4d dirty=36.27KiB
+INFO [04-16|12:05:54.562] Commit new sealing work                  number=26 sealhash=b07bbc..add161 uncles=0 txs=0 gas=0 fees=0 elapsed="317.709µs"
+INFO [04-16|12:05:54.562] Commit new sealing work                  number=26 sealhash=b07bbc..add161 uncles=0 txs=0 gas=0 fees=0 elapsed="500.75µs"
+INFO [04-16|12:05:54.604] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.676ms     mgasps=0.000 number=26 hash=45be7c..1173d5 dirty=37.72KiB
+INFO [04-16|12:05:54.604] Commit new sealing work                  number=27 sealhash=9b12d6..1c76a1 uncles=0 txs=0 gas=0 fees=0 elapsed="69.542µs"
+INFO [04-16|12:05:54.605] Commit new sealing work                  number=27 sealhash=9b12d6..1c76a1 uncles=0 txs=0 gas=0 fees=0 elapsed="165.333µs"
+INFO [04-16|12:05:54.677] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.363ms     mgasps=0.000 number=27 hash=8f6944..6a68c3 dirty=39.17KiB
+INFO [04-16|12:05:54.677] Commit new sealing work                  number=28 sealhash=2fec5a..aacd39 uncles=0 txs=0 gas=0 fees=0 elapsed="61.5µs"
+INFO [04-16|12:05:54.677] Commit new sealing work                  number=28 sealhash=2fec5a..aacd39 uncles=0 txs=0 gas=0 fees=0 elapsed="114.917µs"
+INFO [04-16|12:05:57.593] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.439ms     mgasps=0.000 number=28 hash=a08404..6f243b dirty=40.62KiB
+INFO [04-16|12:05:57.593] Commit new sealing work                  number=29 sealhash=00c301..ea8158 uncles=0 txs=0 gas=0 fees=0 elapsed="60.792µs"
+INFO [04-16|12:05:57.593] Commit new sealing work                  number=29 sealhash=00c301..ea8158 uncles=0 txs=0 gas=0 fees=0 elapsed="114.125µs"
+INFO [04-16|12:05:57.875] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.496ms     mgasps=0.000 number=29 hash=11e4f3..a54fc5 dirty=42.07KiB
+INFO [04-16|12:05:57.875] Commit new sealing work                  number=30 sealhash=83e435..7ac35f uncles=0 txs=0 gas=0 fees=0 elapsed="63.292µs"
+INFO [04-16|12:05:57.875] Commit new sealing work                  number=30 sealhash=83e435..7ac35f uncles=0 txs=0 gas=0 fees=0 elapsed="116.75µs"
+INFO [04-16|12:05:58.003] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.431ms     mgasps=0.000 number=30 hash=dbf1cb..7bc7c3 dirty=43.51KiB
+INFO [04-16|12:05:58.003] Commit new sealing work                  number=31 sealhash=02a818..94e7ba uncles=0 txs=0 gas=0 fees=0 elapsed="66.5µs"
+INFO [04-16|12:05:58.003] Commit new sealing work                  number=31 sealhash=02a818..94e7ba uncles=0 txs=0 gas=0 fees=0 elapsed="119.5µs"
+INFO [04-16|12:05:59.626] Looking for peers                        peercount=2 tried=32 static=3
+INFO [04-16|12:05:59.725] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.472ms     mgasps=0.000 number=31 hash=56f2d1..3d1619 dirty=44.96KiB
+INFO [04-16|12:05:59.725] Commit new sealing work                  number=32 sealhash=182c8c..846326 uncles=0 txs=0 gas=0 fees=0 elapsed="63.458µs"
+INFO [04-16|12:05:59.725] Commit new sealing work                  number=32 sealhash=182c8c..846326 uncles=0 txs=0 gas=0 fees=0 elapsed="116.375µs"
+INFO [04-16|12:06:00.167] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.585ms     mgasps=0.000 number=32 hash=32a611..d93d45 dirty=46.41KiB
+INFO [04-16|12:06:00.167] Commit new sealing work                  number=33 sealhash=951eef..315329 uncles=0 txs=0 gas=0 fees=0 elapsed="59.042µs"
+INFO [04-16|12:06:00.167] Commit new sealing work                  number=33 sealhash=951eef..315329 uncles=0 txs=0 gas=0 fees=0 elapsed="130.375µs"
+INFO [04-16|12:06:00.797] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.453ms     mgasps=0.000 number=33 hash=2e20e7..6ac618 dirty=47.86KiB
+INFO [04-16|12:06:00.797] Commit new sealing work                  number=34 sealhash=816824..b13b88 uncles=0 txs=0 gas=0 fees=0 elapsed="57.083µs"
+INFO [04-16|12:06:00.797] Commit new sealing work                  number=34 sealhash=816824..b13b88 uncles=0 txs=0 gas=0 fees=0 elapsed="109.666µs"
+INFO [04-16|12:06:01.544] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.939ms     mgasps=0.000 number=34 hash=d20bb5..fd204d dirty=49.31KiB
+INFO [04-16|12:06:01.544] Commit new sealing work                  number=35 sealhash=ab8151..fc7a9a uncles=0 txs=0 gas=0 fees=0 elapsed="62.833µs"
+INFO [04-16|12:06:01.545] Commit new sealing work                  number=35 sealhash=ab8151..fc7a9a uncles=0 txs=0 gas=0 fees=0 elapsed="855.083µs"
+INFO [04-16|12:06:01.580] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.606ms     mgasps=0.000 number=35 hash=0c2fdd..bdf755 dirty=50.76KiB
+INFO [04-16|12:06:01.580] Commit new sealing work                  number=36 sealhash=7c5f3c..883d47 uncles=0 txs=0 gas=0 fees=0 elapsed="60.917µs"
+INFO [04-16|12:06:01.580] Commit new sealing work                  number=36 sealhash=7c5f3c..883d47 uncles=0 txs=0 gas=0 fees=0 elapsed="115.209µs"
+INFO [04-16|12:06:01.617] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.709ms     mgasps=0.000 number=36 hash=aa7e73..f65436 dirty=52.20KiB
+INFO [04-16|12:06:01.617] Commit new sealing work                  number=37 sealhash=aeb441..85222c uncles=0 txs=0 gas=0 fees=0 elapsed="64.25µs"
+INFO [04-16|12:06:01.617] Commit new sealing work                  number=37 sealhash=aeb441..85222c uncles=0 txs=0 gas=0 fees=0 elapsed="116.208µs"
+INFO [04-16|12:06:03.481] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.613ms     mgasps=0.000 number=37 hash=e157ed..cf8e72 dirty=53.65KiB
+INFO [04-16|12:06:03.481] Commit new sealing work                  number=38 sealhash=7c3652..f2b709 uncles=0 txs=0 gas=0 fees=0 elapsed="61.75µs"
+INFO [04-16|12:06:03.481] Commit new sealing work                  number=38 sealhash=7c3652..f2b709 uncles=0 txs=0 gas=0 fees=0 elapsed="129.25µs"
+INFO [04-16|12:06:03.553] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.323ms     mgasps=0.000 number=38 hash=a5f1a7..b828bf dirty=55.10KiB
+INFO [04-16|12:06:03.553] Commit new sealing work                  number=39 sealhash=a572e1..d69094 uncles=0 txs=0 gas=0 fees=0 elapsed="81.958µs"
+INFO [04-16|12:06:03.553] Commit new sealing work                  number=39 sealhash=a572e1..d69094 uncles=0 txs=0 gas=0 fees=0 elapsed="134.125µs"
+INFO [04-16|12:06:04.312] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.595ms     mgasps=0.000 number=39 hash=e9fc97..6c9951 dirty=56.55KiB
+INFO [04-16|12:06:04.313] Commit new sealing work                  number=40 sealhash=eb0257..97e67d uncles=0 txs=0 gas=0 fees=0 elapsed="60.917µs"
+INFO [04-16|12:06:04.313] Commit new sealing work                  number=40 sealhash=eb0257..97e67d uncles=0 txs=0 gas=0 fees=0 elapsed="112.792µs"
+INFO [04-16|12:06:06.124] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.493ms     mgasps=0.000 number=40 hash=cc0e08..2b1361 dirty=58.00KiB
+INFO [04-16|12:06:06.124] Commit new sealing work                  number=41 sealhash=307d86..dc31d5 uncles=0 txs=0 gas=0 fees=0 elapsed="60.959µs"
+INFO [04-16|12:06:06.124] Commit new sealing work                  number=41 sealhash=307d86..dc31d5 uncles=0 txs=0 gas=0 fees=0 elapsed="114.292µs"
+INFO [04-16|12:06:06.152] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.514ms     mgasps=0.000 number=41 hash=0d4027..d10432 dirty=59.45KiB
+INFO [04-16|12:06:06.152] Commit new sealing work                  number=42 sealhash=e3d2ef..537838 uncles=0 txs=0 gas=0 fees=0 elapsed="61.416µs"
+INFO [04-16|12:06:06.152] Commit new sealing work                  number=42 sealhash=e3d2ef..537838 uncles=0 txs=0 gas=0 fees=0 elapsed="123.833µs"
+INFO [04-16|12:06:06.711] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.897ms    mgasps=0.000 number=42 hash=092faa..682ad3 dirty=60.89KiB
+INFO [04-16|12:06:06.712] Commit new sealing work                  number=43 sealhash=791943..434218 uncles=0 txs=0 gas=0 fees=0 elapsed="204.458µs"
+INFO [04-16|12:06:06.712] Commit new sealing work                  number=43 sealhash=791943..434218 uncles=0 txs=0 gas=0 fees=0 elapsed="343.416µs"
+INFO [04-16|12:06:08.691] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.997ms     mgasps=0.000 number=43 hash=891d4d..499438 dirty=62.34KiB
+INFO [04-16|12:06:08.691] Commit new sealing work                  number=44 sealhash=2b2a43..1b7e26 uncles=0 txs=0 gas=0 fees=0 elapsed="121.333µs"
+INFO [04-16|12:06:08.691] Commit new sealing work                  number=44 sealhash=2b2a43..1b7e26 uncles=0 txs=0 gas=0 fees=0 elapsed="175.417µs"
+INFO [04-16|12:06:09.630] Looking for peers                        peercount=2 tried=43 static=3
+INFO [04-16|12:06:10.034] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.811ms     mgasps=0.000 number=44 hash=63e66b..15bc28 dirty=63.79KiB
+INFO [04-16|12:06:10.035] Commit new sealing work                  number=45 sealhash=e8cf78..7646b2 uncles=0 txs=0 gas=0 fees=0 elapsed="59.5µs"
+INFO [04-16|12:06:10.035] Commit new sealing work                  number=45 sealhash=e8cf78..7646b2 uncles=0 txs=0 gas=0 fees=0 elapsed="114.75µs"
+ERROR[04-16|12:06:11.339] Snapshot extension registration failed   peer=1fdbbcbd err="peer connected on snap without compatible eth support"
+INFO [04-16|12:06:11.845] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.559ms     mgasps=0.000 number=45 hash=580fb4..1ed3f8 dirty=65.24KiB
+INFO [04-16|12:06:11.846] Commit new sealing work                  number=46 sealhash=92544a..103106 uncles=0 txs=0 gas=0 fees=0 elapsed="57.709µs"
+INFO [04-16|12:06:11.846] Commit new sealing work                  number=46 sealhash=92544a..103106 uncles=0 txs=0 gas=0 fees=0 elapsed="111.542µs"
+INFO [04-16|12:06:12.068] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.577ms     mgasps=0.000 number=46 hash=e52df8..ce8e66 dirty=66.69KiB
+INFO [04-16|12:06:12.068] Commit new sealing work                  number=47 sealhash=67a277..8342da uncles=0 txs=0 gas=0 fees=0 elapsed="65.209µs"
+INFO [04-16|12:06:12.068] Commit new sealing work                  number=47 sealhash=67a277..8342da uncles=0 txs=0 gas=0 fees=0 elapsed="119.167µs"
+INFO [04-16|12:06:13.036] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.449ms     mgasps=0.000 number=47 hash=5c36f0..7c4ed5 dirty=68.13KiB
+INFO [04-16|12:06:13.036] Commit new sealing work                  number=48 sealhash=cb0274..82481e uncles=0 txs=0 gas=0 fees=0 elapsed="63.584µs"
+INFO [04-16|12:06:13.036] Commit new sealing work                  number=48 sealhash=cb0274..82481e uncles=0 txs=0 gas=0 fees=0 elapsed="117.25µs"
+INFO [04-16|12:06:16.275] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.018ms     mgasps=0.000 number=48 hash=33581b..96c695 dirty=69.58KiB
+INFO [04-16|12:06:16.275] Commit new sealing work                  number=49 sealhash=2e7a53..91e43f uncles=0 txs=0 gas=0 fees=0 elapsed="68µs"
+INFO [04-16|12:06:16.275] Commit new sealing work                  number=49 sealhash=2e7a53..91e43f uncles=0 txs=0 gas=0 fees=0 elapsed="126.792µs"
+INFO [04-16|12:06:16.302] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.120ms     mgasps=0.000 number=49 hash=1374d3..93b871 dirty=71.03KiB
+INFO [04-16|12:06:16.302] Commit new sealing work                  number=50 sealhash=5ab2f4..5ec70e uncles=0 txs=0 gas=0 fees=0 elapsed="65.583µs"
+INFO [04-16|12:06:16.302] Commit new sealing work                  number=50 sealhash=5ab2f4..5ec70e uncles=0 txs=0 gas=0 fees=0 elapsed="132.375µs"
+INFO [04-16|12:06:16.466] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.383ms     mgasps=0.000 number=50 hash=ec6002..982469 dirty=72.48KiB
+INFO [04-16|12:06:16.466] Commit new sealing work                  number=51 sealhash=e13d78..a346ae uncles=0 txs=0 gas=0 fees=0 elapsed="98.666µs"
+INFO [04-16|12:06:16.466] Commit new sealing work                  number=51 sealhash=e13d78..a346ae uncles=0 txs=0 gas=0 fees=0 elapsed="183.333µs"
+INFO [04-16|12:06:16.637] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.082ms     mgasps=0.000 number=51 hash=b780bd..ac9bfa dirty=73.93KiB
+INFO [04-16|12:06:16.637] Commit new sealing work                  number=52 sealhash=7f15a6..378081 uncles=0 txs=0 gas=0 fees=0 elapsed="63.25µs"
+INFO [04-16|12:06:16.637] Commit new sealing work                  number=52 sealhash=7f15a6..378081 uncles=0 txs=0 gas=0 fees=0 elapsed="137.292µs"
+INFO [04-16|12:06:16.750] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.331ms     mgasps=0.000 number=52 hash=21cf1d..a4f5c5 dirty=75.38KiB
+INFO [04-16|12:06:16.750] Commit new sealing work                  number=53 sealhash=e4a443..ce96a2 uncles=0 txs=0 gas=0 fees=0 elapsed="75.958µs"
+INFO [04-16|12:06:16.751] Commit new sealing work                  number=53 sealhash=e4a443..ce96a2 uncles=0 txs=0 gas=0 fees=0 elapsed="130.583µs"
+INFO [04-16|12:06:16.908] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=24.181ms    mgasps=0.000 number=53 hash=06d278..402d3c dirty=76.82KiB
+INFO [04-16|12:06:16.908] Commit new sealing work                  number=54 sealhash=2b13cb..0aecd9 uncles=0 txs=0 gas=0 fees=0 elapsed="88.875µs"
+INFO [04-16|12:06:16.908] Commit new sealing work                  number=54 sealhash=2b13cb..0aecd9 uncles=0 txs=0 gas=0 fees=0 elapsed="644.875µs"
+INFO [04-16|12:06:17.196] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.576ms     mgasps=0.000 number=54 hash=19c557..d44035 dirty=78.27KiB
+INFO [04-16|12:06:17.196] Commit new sealing work                  number=55 sealhash=9f5297..e94ba8 uncles=0 txs=0 gas=0 fees=0 elapsed="68.166µs"
+INFO [04-16|12:06:17.196] Commit new sealing work                  number=55 sealhash=9f5297..e94ba8 uncles=0 txs=0 gas=0 fees=0 elapsed="171.291µs"
+INFO [04-16|12:06:17.301] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.527ms     mgasps=0.000 number=55 hash=fcd5f9..47dd49 dirty=79.72KiB
+INFO [04-16|12:06:17.302] Commit new sealing work                  number=56 sealhash=c23431..e29bc8 uncles=0 txs=0 gas=0 fees=0 elapsed="73µs"
+INFO [04-16|12:06:17.302] Commit new sealing work                  number=56 sealhash=c23431..e29bc8 uncles=0 txs=0 gas=0 fees=0 elapsed="125.958µs"
+INFO [04-16|12:06:17.430] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.563ms     mgasps=0.000 number=56 hash=ab6123..3b77fc dirty=81.17KiB
+INFO [04-16|12:06:17.430] Commit new sealing work                  number=57 sealhash=a80a84..2bf935 uncles=0 txs=0 gas=0 fees=0 elapsed="73µs"
+INFO [04-16|12:06:17.430] Commit new sealing work                  number=57 sealhash=a80a84..2bf935 uncles=0 txs=0 gas=0 fees=0 elapsed="124.542µs"
+INFO [04-16|12:06:18.303] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.412ms     mgasps=0.000 number=57 hash=cbc2df..153218 dirty=82.62KiB
+INFO [04-16|12:06:18.303] Commit new sealing work                  number=58 sealhash=32210f..d9f2ad uncles=0 txs=0 gas=0 fees=0 elapsed="66.541µs"
+INFO [04-16|12:06:18.303] Commit new sealing work                  number=58 sealhash=32210f..d9f2ad uncles=0 txs=0 gas=0 fees=0 elapsed="137.416µs"
+INFO [04-16|12:06:19.040] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.665ms     mgasps=0.000 number=58 hash=a633e7..3cb554 dirty=84.07KiB
+INFO [04-16|12:06:19.040] Commit new sealing work                  number=59 sealhash=24d417..3a8b73 uncles=0 txs=0 gas=0 fees=0 elapsed="72.75µs"
+INFO [04-16|12:06:19.040] Commit new sealing work                  number=59 sealhash=24d417..3a8b73 uncles=0 txs=0 gas=0 fees=0 elapsed="129.709µs"
+INFO [04-16|12:06:19.635] Looking for peers                        peercount=2 tried=37 static=3
+INFO [04-16|12:06:20.398] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.603ms     mgasps=0.000 number=59 hash=908192..99a7be dirty=85.51KiB
+INFO [04-16|12:06:20.398] Commit new sealing work                  number=60 sealhash=3ec15e..961ac2 uncles=0 txs=0 gas=0 fees=0 elapsed="62.833µs"
+INFO [04-16|12:06:20.398] Commit new sealing work                  number=60 sealhash=3ec15e..961ac2 uncles=0 txs=0 gas=0 fees=0 elapsed="118.041µs"
+ERROR[04-16|12:06:21.488] Snapshot extension registration failed   peer=a0debc59 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:06:21.809] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.527ms     mgasps=0.000 number=60 hash=0bb085..424408 dirty=86.96KiB
+INFO [04-16|12:06:21.809] Commit new sealing work                  number=61 sealhash=951894..84d0fe uncles=0 txs=0 gas=0 fees=0 elapsed="68.542µs"
+INFO [04-16|12:06:21.809] Commit new sealing work                  number=61 sealhash=951894..84d0fe uncles=0 txs=0 gas=0 fees=0 elapsed="124.709µs"
+INFO [04-16|12:06:22.367] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.499ms     mgasps=0.000 number=61 hash=9db6b3..5fa60a dirty=88.41KiB
+INFO [04-16|12:06:22.367] Commit new sealing work                  number=62 sealhash=6c083f..e4f276 uncles=0 txs=0 gas=0 fees=0 elapsed="64.459µs"
+INFO [04-16|12:06:22.367] Commit new sealing work                  number=62 sealhash=6c083f..e4f276 uncles=0 txs=0 gas=0 fees=0 elapsed="120.459µs"
+INFO [04-16|12:06:23.119] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.531ms     mgasps=0.000 number=62 hash=a39e1a..9c4a30 dirty=89.86KiB
+INFO [04-16|12:06:23.120] Commit new sealing work                  number=63 sealhash=e35601..7edf80 uncles=0 txs=0 gas=0 fees=0 elapsed="64.5µs"
+INFO [04-16|12:06:23.120] Commit new sealing work                  number=63 sealhash=e35601..7edf80 uncles=0 txs=0 gas=0 fees=0 elapsed="119.5µs"
+ERROR[04-16|12:06:25.474] Snapshot extension registration failed   peer=90591f02 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:06:25.978] Block synchronisation started 
+INFO [04-16|12:06:25.979] Mining aborted due to sync 
+INFO [04-16|12:06:25.990] Downloader queue stats                   receiptTasks=0 blockTasks=0 itemSize=110.39B throttle=8192
+INFO [04-16|12:06:26.002] Imported new chain segment               blocks=2 txs=0 mgas=0.000 elapsed=11.919ms    mgasps=0.000 number=64 hash=f07502..004cbf dirty=92.75KiB
+INFO [04-16|12:06:26.002] Commit new sealing work                  number=65 sealhash=ac9ab0..cec786 uncles=0 txs=0 gas=0 fees=0 elapsed="39.041µs"
+INFO [04-16|12:06:26.003] Commit new sealing work                  number=65 sealhash=ac9ab0..cec786 uncles=0 txs=0 gas=0 fees=0 elapsed="91.833µs"
+INFO [04-16|12:06:27.958] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.600ms     mgasps=0.000 number=65 hash=f3af11..95a6ec dirty=94.20KiB
+INFO [04-16|12:06:27.958] Commit new sealing work                  number=66 sealhash=26ca5e..803b4f uncles=0 txs=0 gas=0 fees=0 elapsed="66.541µs"
+INFO [04-16|12:06:27.958] Commit new sealing work                  number=66 sealhash=26ca5e..803b4f uncles=0 txs=0 gas=0 fees=0 elapsed="153µs"
+INFO [04-16|12:06:28.331] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.016ms     mgasps=0.000 number=66 hash=88a749..b2e1f3 dirty=95.65KiB
+INFO [04-16|12:06:28.331] Commit new sealing work                  number=67 sealhash=2bf42e..79b3f0 uncles=0 txs=0 gas=0 fees=0 elapsed="66.375µs"
+INFO [04-16|12:06:28.332] Commit new sealing work                  number=67 sealhash=2bf42e..79b3f0 uncles=0 txs=0 gas=0 fees=0 elapsed="122.125µs"
+INFO [04-16|12:06:29.962] Looking for peers                        peercount=2 tried=29 static=3
+INFO [04-16|12:06:30.581] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.603ms     mgasps=0.000 number=67 hash=141dab..3379c0 dirty=97.10KiB
+INFO [04-16|12:06:30.581] Commit new sealing work                  number=68 sealhash=148eff..d60887 uncles=0 txs=0 gas=0 fees=0 elapsed="68.209µs"
+INFO [04-16|12:06:30.581] Commit new sealing work                  number=68 sealhash=148eff..d60887 uncles=0 txs=0 gas=0 fees=0 elapsed="123.292µs"
+INFO [04-16|12:06:30.943] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.613ms     mgasps=0.000 number=68 hash=4f259e..edb6fb dirty=98.55KiB
+INFO [04-16|12:06:30.943] Commit new sealing work                  number=69 sealhash=b7dd54..79a782 uncles=0 txs=0 gas=0 fees=0 elapsed="64.875µs"
+INFO [04-16|12:06:30.943] Commit new sealing work                  number=69 sealhash=b7dd54..79a782 uncles=0 txs=0 gas=0 fees=0 elapsed="122µs"
+INFO [04-16|12:06:31.935] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.743ms     mgasps=0.000 number=69 hash=e46246..d2b561 dirty=100.00KiB
+INFO [04-16|12:06:31.935] Commit new sealing work                  number=70 sealhash=014a55..d1aefa uncles=0 txs=0 gas=0 fees=0 elapsed="66.041µs"
+INFO [04-16|12:06:31.935] Commit new sealing work                  number=70 sealhash=014a55..d1aefa uncles=0 txs=0 gas=0 fees=0 elapsed="119.791µs"
+INFO [04-16|12:06:32.012] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.845ms     mgasps=0.000 number=70 hash=84fe9b..10146e dirty=101.44KiB
+INFO [04-16|12:06:32.012] Commit new sealing work                  number=71 sealhash=eeec9c..ef3ef9 uncles=0 txs=0 gas=0 fees=0 elapsed="98.875µs"
+INFO [04-16|12:06:32.012] Commit new sealing work                  number=71 sealhash=eeec9c..ef3ef9 uncles=0 txs=0 gas=0 fees=0 elapsed="155.209µs"
+INFO [04-16|12:06:32.722] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.677ms     mgasps=0.000 number=71 hash=a6c1e8..58e46d dirty=102.89KiB
+INFO [04-16|12:06:32.722] Commit new sealing work                  number=72 sealhash=839e13..664be8 uncles=0 txs=0 gas=0 fees=0 elapsed="63.208µs"
+INFO [04-16|12:06:32.722] Commit new sealing work                  number=72 sealhash=839e13..664be8 uncles=0 txs=0 gas=0 fees=0 elapsed="119.625µs"
+INFO [04-16|12:06:33.856] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.737ms     mgasps=0.000 number=72 hash=7ae861..78369b dirty=104.34KiB
+INFO [04-16|12:06:33.856] Commit new sealing work                  number=73 sealhash=67a1ce..f3c7cc uncles=0 txs=0 gas=0 fees=0 elapsed="67.667µs"
+INFO [04-16|12:06:33.856] Commit new sealing work                  number=73 sealhash=67a1ce..f3c7cc uncles=0 txs=0 gas=0 fees=0 elapsed="122.25µs"
+INFO [04-16|12:06:34.464] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.078ms     mgasps=0.000 number=73 hash=4f6338..07a737 dirty=105.79KiB
+INFO [04-16|12:06:34.464] Commit new sealing work                  number=74 sealhash=b96050..9183ef uncles=0 txs=0 gas=0 fees=0 elapsed="72.666µs"
+INFO [04-16|12:06:34.465] Commit new sealing work                  number=74 sealhash=b96050..9183ef uncles=0 txs=0 gas=0 fees=0 elapsed="249.166µs"
+INFO [04-16|12:06:35.060] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.282ms     mgasps=0.000 number=74 hash=e43fd9..b4f310 dirty=107.24KiB
+INFO [04-16|12:06:35.060] Commit new sealing work                  number=75 sealhash=c8cc71..f52bbf uncles=0 txs=0 gas=0 fees=0 elapsed="212.917µs"
+INFO [04-16|12:06:35.060] Commit new sealing work                  number=75 sealhash=c8cc71..f52bbf uncles=0 txs=0 gas=0 fees=0 elapsed="390.75µs"
+INFO [04-16|12:06:36.695] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.974ms     mgasps=0.000 number=75 hash=e151d7..f76765 dirty=108.69KiB
+INFO [04-16|12:06:36.695] Commit new sealing work                  number=76 sealhash=aa45ef..727bcf uncles=0 txs=0 gas=0 fees=0 elapsed="66.333µs"
+INFO [04-16|12:06:36.695] Commit new sealing work                  number=76 sealhash=aa45ef..727bcf uncles=0 txs=0 gas=0 fees=0 elapsed="119.75µs"
+INFO [04-16|12:06:37.290] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.620ms     mgasps=0.000 number=76 hash=a23c99..fd04fe dirty=110.13KiB
+INFO [04-16|12:06:37.290] Commit new sealing work                  number=77 sealhash=5e2250..d8cb28 uncles=0 txs=0 gas=0 fees=0 elapsed="70.416µs"
+INFO [04-16|12:06:37.290] Commit new sealing work                  number=77 sealhash=5e2250..d8cb28 uncles=0 txs=0 gas=0 fees=0 elapsed="128µs"
+INFO [04-16|12:06:39.671] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.31ms      mgasps=0.000 number=77 hash=c314cc..acbe5d dirty=111.58KiB
+INFO [04-16|12:06:39.671] Commit new sealing work                  number=78 sealhash=d2935b..4e597e uncles=0 txs=0 gas=0 fees=0 elapsed="135.083µs"
+INFO [04-16|12:06:39.672] Commit new sealing work                  number=78 sealhash=d2935b..4e597e uncles=0 txs=0 gas=0 fees=0 elapsed="530.666µs"
+INFO [04-16|12:06:39.678] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.406ms     mgasps=0.000 number=78 hash=99c5c7..3ad64b dirty=113.03KiB
+INFO [04-16|12:06:39.678] Commit new sealing work                  number=79 sealhash=6936fd..5d3537 uncles=0 txs=0 gas=0 fees=0 elapsed="71.041µs"
+INFO [04-16|12:06:39.678] Commit new sealing work                  number=79 sealhash=6936fd..5d3537 uncles=0 txs=0 gas=0 fees=0 elapsed="214.583µs"
+WARN [04-16|12:06:39.702] Synchronisation failed, dropping peer    peer=427f7a0c39a676a3d8b16c16d3090af3a3bf7298f56e0ca1dde1db576eeb05c0 err="retrieved hash chain is invalid: block in the future"
+INFO [04-16|12:06:39.963] Looking for peers                        peercount=2 tried=42 static=3
+INFO [04-16|12:06:42.290] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.336ms     mgasps=0.000 number=79 hash=e0337a..d9b88b dirty=114.48KiB
+INFO [04-16|12:06:42.290] Commit new sealing work                  number=80 sealhash=233b01..3678e5 uncles=0 txs=0 gas=0 fees=0 elapsed="107µs"
+INFO [04-16|12:06:42.290] Commit new sealing work                  number=80 sealhash=233b01..3678e5 uncles=0 txs=0 gas=0 fees=0 elapsed="180.25µs"
+INFO [04-16|12:06:46.236] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.201ms     mgasps=0.000 number=80 hash=f55ce4..873edd dirty=115.93KiB
+INFO [04-16|12:06:46.236] Commit new sealing work                  number=81 sealhash=1e90bd..eebd1d uncles=0 txs=0 gas=0 fees=0 elapsed="70.792µs"
+INFO [04-16|12:06:46.236] Commit new sealing work                  number=81 sealhash=1e90bd..eebd1d uncles=0 txs=0 gas=0 fees=0 elapsed="123.542µs"
+INFO [04-16|12:06:46.242] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.597ms     mgasps=0.000 number=81 hash=be4402..20f905 dirty=117.38KiB
+INFO [04-16|12:06:46.242] Commit new sealing work                  number=82 sealhash=2c3a1d..1544fe uncles=0 txs=0 gas=0 fees=0 elapsed="86.125µs"
+INFO [04-16|12:06:46.242] Commit new sealing work                  number=82 sealhash=2c3a1d..1544fe uncles=0 txs=0 gas=0 fees=0 elapsed="166.833µs"
+INFO [04-16|12:06:46.247] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.831ms     mgasps=0.000 number=82 hash=6f8045..5481b3 dirty=118.82KiB
+INFO [04-16|12:06:46.247] Commit new sealing work                  number=83 sealhash=52680e..8c1363 uncles=0 txs=0 gas=0 fees=0 elapsed="66.25µs"
+INFO [04-16|12:06:46.247] Commit new sealing work                  number=83 sealhash=52680e..8c1363 uncles=0 txs=0 gas=0 fees=0 elapsed="121.292µs"
+INFO [04-16|12:06:46.252] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=2.462ms     mgasps=0.000 number=83 hash=b66876..14ff6f dirty=120.27KiB
+INFO [04-16|12:06:46.252] Commit new sealing work                  number=84 sealhash=64dafe..3d8144 uncles=0 txs=0 gas=0 fees=0 elapsed="55.625µs"
+INFO [04-16|12:06:46.252] Commit new sealing work                  number=84 sealhash=64dafe..3d8144 uncles=0 txs=0 gas=0 fees=0 elapsed="101.25µs"
+INFO [04-16|12:06:46.256] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=1.695ms     mgasps=0.000 number=84 hash=08aba4..75bf9b dirty=121.72KiB
+INFO [04-16|12:06:46.256] Commit new sealing work                  number=85 sealhash=d3b0de..25dfbc uncles=0 txs=0 gas=0 fees=0 elapsed="56.459µs"
+INFO [04-16|12:06:46.256] Commit new sealing work                  number=85 sealhash=d3b0de..25dfbc uncles=0 txs=0 gas=0 fees=0 elapsed="122.667µs"
+INFO [04-16|12:06:46.259] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=1.471ms     mgasps=0.000 number=85 hash=f124df..d45884 dirty=123.17KiB
+INFO [04-16|12:06:46.260] Commit new sealing work                  number=86 sealhash=5bfdbf..eaab9e uncles=0 txs=0 gas=0 fees=0 elapsed="60.083µs"
+INFO [04-16|12:06:46.260] Commit new sealing work                  number=86 sealhash=5bfdbf..eaab9e uncles=0 txs=0 gas=0 fees=0 elapsed="105.542µs"
+INFO [04-16|12:06:49.964] Looking for peers                        peercount=2 tried=41 static=3
+ERROR[04-16|12:06:53.177] Snapshot extension registration failed   peer=1125cc47 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:07:00.293] Looking for peers                        peercount=2 tried=38 static=3
+ERROR[04-16|12:07:05.672] Snapshot extension registration failed   peer=fb176ab5 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:07:10.294] Looking for peers                        peercount=2 tried=39 static=3
+ERROR[04-16|12:07:12.104] Snapshot extension registration failed   peer=5081b3d4 err="peer connected on snap without compatible eth support"
+ERROR[04-16|12:07:19.219] Snapshot extension registration failed   peer=b1350674 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:07:20.295] Looking for peers                        peercount=2 tried=37 static=3
+INFO [04-16|12:07:30.303] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:07:40.306] Looking for peers                        peercount=2 tried=36 static=3
+INFO [04-16|12:07:50.635] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:08:00.673] Looking for peers                        peercount=2 tried=34 static=3
+ERROR[04-16|12:08:04.448] Snapshot extension registration failed   peer=4cec0675 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:08:10.844] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|12:08:20.934] Looking for peers                        peercount=2 tried=37 static=3
+ERROR[04-16|12:08:20.974] Snapshot extension registration failed   peer=2207d01b err="peer connected on snap without compatible eth support"
+INFO [04-16|12:08:30.963] Looking for peers                        peercount=2 tried=34 static=3
+ERROR[04-16|12:08:36.082] Snapshot extension registration failed   peer=20321f90 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:08:40.963] Looking for peers                        peercount=2 tried=38 static=3
+ERROR[04-16|12:08:45.732] Snapshot extension registration failed   peer=5e3cad0f err="peer connected on snap without compatible eth support"
+INFO [04-16|12:08:50.969] Looking for peers                        peercount=2 tried=37 static=3
+INFO [04-16|12:09:00.969] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|12:18:17.088] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|12:18:27.082] Looking for peers                        peercount=2 tried=37 static=3
+INFO [04-16|12:18:37.093] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|12:18:47.416] Looking for peers                        peercount=2 tried=37 static=3
+INFO [04-16|12:18:57.740] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|12:19:08.239] Looking for peers                        peercount=2 tried=17 static=3
+INFO [04-16|12:19:18.413] Looking for peers                        peercount=2 tried=36 static=3
+INFO [04-16|12:19:28.452] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:19:38.559] Looking for peers                        peercount=2 tried=26 static=3
+INFO [04-16|12:19:49.892] Looking for peers                        peercount=2 tried=13 static=3
+INFO [04-16|12:19:59.929] Looking for peers                        peercount=2 tried=18 static=3
+INFO [04-16|12:20:11.224] Looking for peers                        peercount=2 tried=29 static=3
+INFO [04-16|12:20:21.279] Looking for peers                        peercount=2 tried=51 static=3
+INFO [04-16|12:20:31.318] Looking for peers                        peercount=2 tried=43 static=3
+INFO [04-16|12:20:41.431] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:20:51.981] Looking for peers                        peercount=2 tried=30 static=3
+INFO [04-16|12:21:01.984] Looking for peers                        peercount=2 tried=44 static=3
+INFO [04-16|12:21:12.246] Looking for peers                        peercount=2 tried=40 static=3
+INFO [04-16|12:21:22.247] Looking for peers                        peercount=2 tried=44 static=3
+INFO [04-16|12:21:32.333] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|12:21:42.576] Looking for peers                        peercount=2 tried=40 static=3
+INFO [04-16|12:21:52.578] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:22:02.579] Looking for peers                        peercount=3 tried=39 static=3
+INFO [04-16|12:22:12.796] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|12:22:22.910] Looking for peers                        peercount=2 tried=37 static=3
+INFO [04-16|12:22:32.912] Looking for peers                        peercount=2 tried=37 static=3
+INFO [04-16|12:22:42.912] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:22:52.914] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:22:55.476] Commit new sealing work                  number=86 sealhash=fba5fd..32ec79 uncles=0 txs=1 gas=248,854 fees=0 elapsed=1.186ms
+INFO [04-16|12:23:03.243] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|12:23:13.246] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|12:23:23.272] Looking for peers                        peercount=2 tried=37 static=3
+ERROR[04-16|12:23:29.142] Snapshot extension registration failed   peer=04dfa983 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:23:33.577] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|12:23:43.578] Looking for peers                        peercount=2 tried=44 static=3
+INFO [04-16|12:23:53.589] Looking for peers                        peercount=2 tried=42 static=3
+INFO [04-16|12:24:03.594] Looking for peers                        peercount=2 tried=42 static=3
+INFO [04-16|12:24:13.613] Looking for peers                        peercount=2 tried=42 static=3
+INFO [04-16|12:24:23.749] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|12:24:33.912] Looking for peers                        peercount=2 tried=31 static=3
+INFO [04-16|12:24:44.099] Looking for peers                        peercount=2 tried=45 static=3
+INFO [04-16|12:24:54.119] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|12:25:04.246] Looking for peers                        peercount=2 tried=40 static=3
+INFO [04-16|12:25:14.433] Looking for peers                        peercount=2 tried=31 static=3
+INFO [04-16|12:25:24.480] Looking for peers                        peercount=2 tried=32 static=3
+INFO [04-16|12:25:34.495] Looking for peers                        peercount=2 tried=40 static=3
+INFO [04-16|12:25:44.497] Looking for peers                        peercount=2 tried=40 static=3
+INFO [04-16|12:25:54.829] Looking for peers                        peercount=2 tried=40 static=3
+INFO [04-16|12:26:05.823] Looking for peers                        peercount=2 tried=29 static=3
+INFO [04-16|12:26:15.832] Looking for peers                        peercount=2 tried=51 static=3
+INFO [04-16|12:26:25.838] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|12:26:36.168] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|12:26:46.186] Looking for peers                        peercount=2 tried=37 static=3
+INFO [04-16|12:26:56.192] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|12:27:06.499] Looking for peers                        peercount=2 tried=32 static=3
+INFO [04-16|12:27:16.522] Looking for peers                        peercount=2 tried=26 static=3
+INFO [04-16|12:27:26.524] Looking for peers                        peercount=2 tried=25 static=3
+ERROR[04-16|12:27:28.561] Snapshot extension registration failed   peer=4512109c err="peer connected on snap without compatible eth support"
+ERROR[04-16|12:27:35.715] Snapshot extension registration failed   peer=cf77ab27 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:27:36.531] Looking for peers                        peercount=2 tried=50 static=3
+INFO [04-16|12:27:46.537] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:27:56.591] Looking for peers                        peercount=2 tried=43 static=3
+INFO [04-16|12:28:06.632] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|12:28:16.632] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|12:28:26.633] Looking for peers                        peercount=2 tried=40 static=3
+INFO [04-16|12:28:36.661] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:28:47.016] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|12:28:57.296] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|12:29:07.296] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|12:29:17.297] Looking for peers                        peercount=2 tried=42 static=3
+INFO [04-16|12:29:27.304] Looking for peers                        peercount=2 tried=38 static=3
+ERROR[04-16|12:29:30.529] Snapshot extension registration failed   peer=f6e5c59b err="peer connected on snap without compatible eth support"
+ERROR[04-16|12:34:32.427] Snapshot extension registration failed   peer=1ad4ba73 err="peer connected on snap without compatible eth support"
+INFO [04-16|12:34:33.400] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|12:39:18.752] Looking for peers                        peercount=2 tried=14 static=3
+INFO [04-16|12:39:28.755] Looking for peers                        peercount=2 tried=6  static=3
+INFO [04-16|12:39:39.085] Looking for peers                        peercount=2 tried=4  static=3
+INFO [04-16|12:40:23.966] Looking for peers                        peercount=2 tried=4  static=3
+INFO [04-16|12:40:33.969] Looking for peers                        peercount=2 tried=3  static=3
+INFO [04-16|12:40:43.971] Looking for peers                        peercount=2 tried=2  static=3
+INFO [04-16|12:58:30.093] Looking for peers                        peercount=2 tried=17 static=3
+INFO [04-16|12:58:40.098] Looking for peers                        peercount=2 tried=53 static=3
+INFO [04-16|13:16:20.874] Looking for peers                        peercount=2 tried=26 static=3
+INFO [04-16|13:21:27.107] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:21:37.260] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:21:47.269] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:21:57.273] Looking for peers                        peercount=2 tried=45 static=3
+INFO [04-16|13:22:07.280] Looking for peers                        peercount=2 tried=45 static=3
+INFO [04-16|13:22:17.289] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|13:22:27.292] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|13:22:37.403] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|13:22:47.617] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:22:50.456] Commit new sealing work                  number=86 sealhash=5d7ce0..bb5728 uncles=0 txs=2 gas=497,708 fees=0 elapsed=2.541ms
+INFO [04-16|13:22:57.617] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:23:07.618] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:23:17.655] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|13:23:27.663] Looking for peers                        peercount=3 tried=33 static=3
+INFO [04-16|13:23:37.668] Looking for peers                        peercount=2 tried=33 static=3
+INFO [04-16|13:23:47.982] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:23:58.003] Looking for peers                        peercount=2 tried=46 static=3
+INFO [04-16|13:24:08.006] Looking for peers                        peercount=2 tried=17 static=3
+INFO [04-16|13:24:18.007] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:24:28.017] Looking for peers                        peercount=2 tried=41 static=3
+INFO [04-16|13:24:38.018] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|13:24:48.024] Looking for peers                        peercount=2 tried=45 static=3
+INFO [04-16|13:24:58.064] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:25:08.352] Looking for peers                        peercount=2 tried=39 static=3
+INFO [04-16|13:25:18.678] Looking for peers                        peercount=2 tried=35 static=3
+INFO [04-16|13:25:28.685] Looking for peers                        peercount=2 tried=38 static=3
+INFO [04-16|13:25:39.015] Looking for peers                        peercount=2 tried=33 static=3
+INFO [04-16|13:25:49.018] Looking for peers                        peercount=2 tried=36 static=3
+INFO [04-16|13:27:40.087] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [04-16|13:27:40.087] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [04-16|13:27:40.087] Found deprecated node list file /Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/eth-private-blockchain/3-node/static-nodes.json, please use the TOML config file instead. 
+WARN [04-16|13:27:40.088] The generic --miner.gastarget flag is deprecated and will be removed in the future! 
+INFO [04-16|13:27:40.088] Set global gas cap                       cap=50,000,000
+WARN [04-16|13:27:40.088] Sanitizing invalid miner gas price       provided=0 updated=0
+INFO [04-16|13:27:40.088] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [04-16|13:27:40.088] Allocated cache and file handles         database=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/eth-private-blockchain/3-node/geth/chaindata cache=512.00MiB handles=5120
+INFO [04-16|13:27:40.210] Opened ancient database                  database=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/eth-private-blockchain/3-node/geth/chaindata/ancient readonly=false
+INFO [04-16|13:27:40.210] Initialised chain configuration          config="{ChainID: 81397860 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [04-16|13:27:40.211] Disk storage enabled for ethash caches   dir=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/eth-private-blockchain/3-node/geth/ethash count=3
+INFO [04-16|13:27:40.211] Disk storage enabled for ethash DAGs     dir=/Users/pinkyjain/Library/Ethash count=2
+INFO [04-16|13:27:40.211] Initialising Ethereum protocol           network=81,397,860 dbversion=8
+INFO [04-16|13:27:40.211] Loaded most recent local header          number=85 hash=f124df..d45884 td=42,751,924 age=1h20m39s
+INFO [04-16|13:27:40.211] Loaded most recent local full block      number=85 hash=f124df..d45884 td=42,751,924 age=1h20m39s
+INFO [04-16|13:27:40.211] Loaded most recent local fast block      number=85 hash=f124df..d45884 td=42,751,924 age=1h20m39s
+WARN [04-16|13:27:40.211] Head state missing, repairing            number=85 hash=f124df..d45884 snaproot=df80bc..88f950
+INFO [04-16|13:27:40.213] Loaded most recent local header          number=85 hash=f124df..d45884 td=42,751,924 age=1h20m39s
+INFO [04-16|13:27:40.213] Loaded most recent local full block      number=0  hash=45f8f1..978eab td=524,288    age=3h7m26s
+INFO [04-16|13:27:40.213] Loaded most recent local fast block      number=85 hash=f124df..d45884 td=42,751,924 age=1h20m39s
+WARN [04-16|13:27:40.213] Loaded snapshot journal                  diskroot=df80bc..88f950 diffs=missing
+INFO [04-16|13:27:40.213] Loaded local transaction journal         transactions=0 dropped=0
+INFO [04-16|13:27:40.213] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [04-16|13:27:40.213] Switch sync mode from full sync to snap sync 
+INFO [04-16|13:27:40.213] Gasprice oracle is ignoring threshold set threshold=2
+WARN [04-16|13:27:40.214] Unclean shutdown detected                booted=2022-04-16T11:34:28+0800 age=1h53m12s
+WARN [04-16|13:27:40.214] Unclean shutdown detected                booted=2022-04-16T13:22:25+0800 age=5m15s
+INFO [04-16|13:27:40.214] Starting peer-to-peer node               instance=Geth/v1.10.16-stable/darwin-arm64/go1.17.6
+INFO [04-16|13:27:40.333] New local node record                    seq=1,650,080,069,021 id=839fd6efab51a365 ip=127.0.0.1 udp=30312 tcp=30312
+INFO [04-16|13:27:40.333] Started P2P networking                   self=enode://f3ee7d5544df2fec2f3a36187b842d26dfeb7e25884c51b5a788d3f17bb8b4b3773806b83121c6141fd39568764332833a55ebebdf73d10c195ef56b05d68074@127.0.0.1:30312
+WARN [04-16|13:27:40.334] IPC opening failed                       url=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/eth-private-blockchain/3-node/geth.ipc error="listen unix /Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/eth-private-blockchain/3-node/geth.ipc: bind: invalid argument"
+INFO [04-16|13:27:43.129] Mapped network port                      proto=udp extport=30312 intport=30312 interface="UPNP IGDv2-IP2"
+INFO [04-16|13:27:43.604] Mapped network port                      proto=tcp extport=30312 intport=30312 interface="UPNP IGDv2-IP2"
+Fatal: Error starting protocol stack: listen unix /Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/eth-private-blockchain/3-node/geth.ipc: bind: invalid argument
+INFO [04-16|13:30:18.026] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [04-16|13:30:18.026] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [04-16|13:30:18.026] Found deprecated node list file /Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/static-nodes.json, please use the TOML config file instead. 
+WARN [04-16|13:30:18.026] The generic --miner.gastarget flag is deprecated and will be removed in the future! 
+INFO [04-16|13:30:18.026] Set global gas cap                       cap=50,000,000
+WARN [04-16|13:30:18.026] Sanitizing invalid miner gas price       provided=0 updated=0
+INFO [04-16|13:30:18.027] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [04-16|13:30:18.027] Allocated cache and file handles         database=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/chaindata cache=512.00MiB handles=5120
+INFO [04-16|13:30:18.354] Opened ancient database                  database=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/chaindata/ancient readonly=false
+INFO [04-16|13:30:18.356] Initialised chain configuration          config="{ChainID: 81397860 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, MergeFork: <nil>, Engine: ethash}"
+INFO [04-16|13:30:18.374] Disk storage enabled for ethash caches   dir=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth/ethash count=3
+INFO [04-16|13:30:18.393] Disk storage enabled for ethash DAGs     dir=/Users/pinkyjain/Library/Ethash count=2
+INFO [04-16|13:30:18.394] Initialising Ethereum protocol           network=81,397,860 dbversion=8
+INFO [04-16|13:30:18.416] Loaded most recent local header          number=85 hash=f124df..d45884 td=42,751,924 age=1h23m17s
+INFO [04-16|13:30:18.416] Loaded most recent local full block      number=0  hash=45f8f1..978eab td=524,288    age=3h10m4s
+INFO [04-16|13:30:18.416] Loaded most recent local fast block      number=85 hash=f124df..d45884 td=42,751,924 age=1h23m17s
+WARN [04-16|13:30:18.417] Loaded snapshot journal                  diskroot=df80bc..88f950 diffs=missing
+INFO [04-16|13:30:18.417] Loaded local transaction journal         transactions=0 dropped=0
+INFO [04-16|13:30:18.418] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [04-16|13:30:18.418] Switch sync mode from full sync to snap sync 
+INFO [04-16|13:30:18.418] Gasprice oracle is ignoring threshold set threshold=2
+WARN [04-16|13:30:18.418] Unclean shutdown detected                booted=2022-04-16T11:34:28+0800 age=1h55m50s
+WARN [04-16|13:30:18.418] Unclean shutdown detected                booted=2022-04-16T13:22:25+0800 age=7m53s
+WARN [04-16|13:30:18.418] Unclean shutdown detected                booted=2022-04-16T13:27:40+0800 age=2m38s
+INFO [04-16|13:30:18.418] Starting peer-to-peer node               instance=Geth/v1.10.16-stable/darwin-arm64/go1.17.6
+INFO [04-16|13:30:18.533] New local node record                    seq=1,650,080,069,022 id=839fd6efab51a365 ip=127.0.0.1 udp=30312 tcp=30312
+INFO [04-16|13:30:18.533] Started P2P networking                   self=enode://f3ee7d5544df2fec2f3a36187b842d26dfeb7e25884c51b5a788d3f17bb8b4b3773806b83121c6141fd39568764332833a55ebebdf73d10c195ef56b05d68074@127.0.0.1:30312
+INFO [04-16|13:30:18.534] IPC endpoint opened                      url=/Users/pinkyjain/Downloads/BLOCKCHAIN/ethereum-private-blockchain/3-node/geth.ipc
+INFO [04-16|13:30:18.536] HTTP server started                      endpoint=127.0.0.1:8547 prefix= cors= vhosts=localhost
+INFO [04-16|13:30:19.027] Unlocked account                         address=0xC5a13BC74AE6344618e41E1d4b2921aA6A6ce54F
+INFO [04-16|13:30:19.027] Transaction pool price threshold updated price=0
+INFO [04-16|13:30:19.027] Updated mining threads                   threads=0
+INFO [04-16|13:30:19.027] Transaction pool price threshold updated price=0
+INFO [04-16|13:30:19.027] Etherbase automatically configured       address=0xC5a13BC74AE6344618e41E1d4b2921aA6A6ce54F
+INFO [04-16|13:30:19.028] Commit new sealing work                  number=1  sealhash=fcad5a..554055 uncles=0 txs=0 gas=0 fees=0 elapsed="218.25µs"
+INFO [04-16|13:30:19.028] Commit new sealing work                  number=1  sealhash=fcad5a..554055 uncles=0 txs=0 gas=0 fees=0 elapsed="292.667µs"
+INFO [04-16|13:30:21.362] Mapped network port                      proto=tcp extport=30312 intport=30312 interface="UPNP IGDv2-IP2"
+INFO [04-16|13:30:21.860] Mapped network port                      proto=udp extport=30312 intport=30312 interface="UPNP IGDv2-IP2"
+INFO [04-16|13:30:33.534] Looking for peers                        peercount=2 tried=3 static=3
+INFO [04-16|13:30:45.570] Looking for peers                        peercount=2 tried=27 static=3
+INFO [04-16|13:30:56.544] Looking for peers                        peercount=2 tried=3  static=3
+INFO [04-16|13:31:08.535] Looking for peers                        peercount=2 tried=9  static=3
+INFO [04-16|13:31:24.668] Looking for peers                        peercount=2 tried=21 static=3
+INFO [04-16|13:31:36.700] Looking for peers                        peercount=2 tried=3  static=3
+INFO [04-16|13:31:51.647] Looking for peers                        peercount=2 tried=6  static=3
+INFO [04-16|13:32:02.762] Looking for peers                        peercount=2 tried=11 static=3
+INFO [04-16|13:32:17.764] Looking for peers                        peercount=2 tried=7  static=3
+INFO [04-16|13:32:28.743] Looking for peers                        peercount=2 tried=5  static=3
+INFO [04-16|13:32:44.803] Looking for peers                        peercount=2 tried=6  static=3
+INFO [04-16|13:32:55.796] Looking for peers                        peercount=2 tried=7  static=3
+ERROR[04-16|13:33:04.092] Snapshot extension registration failed   peer=004a63a6 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:33:06.167] Looking for peers                        peercount=2 tried=112 static=3
+INFO [04-16|13:33:16.186] Looking for peers                        peercount=2 tried=114 static=3
+INFO [04-16|13:33:26.247] Looking for peers                        peercount=2 tried=116 static=3
+ERROR[04-16|13:33:29.736] Snapshot extension registration failed   peer=1125cc47 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:33:36.281] Looking for peers                        peercount=2 tried=104 static=3
+INFO [04-16|13:33:46.291] Looking for peers                        peercount=2 tried=107 static=3
+INFO [04-16|13:33:56.384] Looking for peers                        peercount=2 tried=120 static=3
+INFO [04-16|13:34:06.559] Looking for peers                        peercount=2 tried=98  static=3
+ERROR[04-16|13:34:15.835] Snapshot extension registration failed   peer=1125cc47 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:34:26.683] Looking for peers                        peercount=2 tried=140 static=3
+INFO [04-16|13:34:36.910] Looking for peers                        peercount=2 tried=61  static=3
+INFO [04-16|13:34:47.201] Looking for peers                        peercount=2 tried=118 static=3
+ERROR[04-16|13:35:06.093] Snapshot extension registration failed   peer=decab1a9 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:35:37.824] Looking for peers                        peercount=2 tried=70  static=3
+INFO [04-16|13:35:48.269] Looking for peers                        peercount=2 tried=123 static=3
+INFO [04-16|13:35:58.288] Looking for peers                        peercount=2 tried=92  static=3
+INFO [04-16|13:36:08.289] Looking for peers                        peercount=2 tried=143 static=3
+INFO [04-16|13:36:18.326] Looking for peers                        peercount=2 tried=114 static=3
+INFO [04-16|13:36:28.348] Looking for peers                        peercount=2 tried=180 static=3
+INFO [04-16|13:36:38.348] Looking for peers                        peercount=2 tried=68  static=3
+INFO [04-16|13:36:48.494] Looking for peers                        peercount=2 tried=49  static=3
+INFO [04-16|13:36:58.872] Looking for peers                        peercount=2 tried=157 static=3
+INFO [04-16|13:37:08.998] Looking for peers                        peercount=2 tried=128 static=3
+INFO [04-16|13:37:19.771] Looking for peers                        peercount=2 tried=42  static=3
+INFO [04-16|13:37:26.716] New local node record                    seq=1,650,080,069,023 id=839fd6efab51a365 ip=116.86.144.27 udp=30312 tcp=30312
+INFO [04-16|13:37:30.214] Looking for peers                        peercount=2 tried=117 static=3
+ERROR[04-16|13:37:47.043] Snapshot extension registration failed   peer=d77a3ca8 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:37:50.403] Looking for peers                        peercount=2 tried=134 static=3
+INFO [04-16|13:38:00.499] Looking for peers                        peercount=2 tried=106 static=3
+INFO [04-16|13:38:10.526] Looking for peers                        peercount=2 tried=55  static=3
+INFO [04-16|13:38:20.528] Looking for peers                        peercount=2 tried=110 static=3
+INFO [04-16|13:38:30.953] Looking for peers                        peercount=2 tried=121 static=3
+ERROR[04-16|13:38:35.765] Snapshot extension registration failed   peer=c2340321 err="peer connected on snap without compatible eth support"
+INFO [04-16|13:38:41.096] Looking for peers                        peercount=2 tried=115 static=3

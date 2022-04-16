@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "start:abc": "node ./arg.js -a -b -c",
+    "ropsten": "node server.js ropsten",
+    "ganache": "node server.js ganache",
+    "clean": "truffle networks --clean",
+    "deploy:ganache": "truffle migrate --network ganache --rest",
+    "deploy:ropsten": "truffle migrate --network ropsten --rest",
+    "start:ropsten2": "node server.js --NODE_ENV=ropsten2",
+    "arg": "nodemon arg.js --ROPSTEN=ropsten"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2",
+    "@truffle/contract": "^4.4.9",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fs-extra": "^10.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "openzeppelin-solidity": "^4.5.0",
+    "truffle-contract": "^4.0.31",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.13.0"
+  }
+}
