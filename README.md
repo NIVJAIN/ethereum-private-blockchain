@@ -604,5 +604,4 @@ Summary
 > Total deployments:   2
 > Final cost:          0.0000000000007323 ETH
 
-ge
 ```
